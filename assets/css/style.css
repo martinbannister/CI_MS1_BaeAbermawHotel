@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Raleway:wght@400;500;700&display=swap');
+
+:root {
+    --gold: rgb(152, 147, 57);
+    --dark-gold: rgb(142, 132, 61);
+    --teal: rgb(36, 79, 129);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    float: left;
+    margin: 2rem;
+}
+
+#main_nav {
+    padding-top: 2rem;
+}
+
+.navigation {
+    list-style: none;
+    float:right;
+    font-weight: 500;
+}
+
+.navigation > li {
+    float: left;
+    color: #fff;
+    background-color: var(--dark-gold);
+    padding: 0.5rem 0.75rem;
+    margin: 0 0.5rem;
+}
+
+.navigation > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.book {
+    background-color: #fff;
+    color: var(--gold);
+    border: var(--dark-gold) solid 3px;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    float: right;
+}
+
+.cover {
+    background-image: url(../images/a_view_to_luxury.png);
+    background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 960px;
+    text-align: center;
+}
+
+.circle {
+    background-color: rgba(36, 79, 129, 0.8);
+    border-radius: 50%;
+    width: 35rem;
+    height: 35rem;
+    position: relative;
+    margin: 10% auto 0;
+    padding: 1.5rem 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Parisienne', cursive;
+}
+
+.title > h1 {
+    color: var(--dark-gold);
+    font-size: 4.5rem;
+}
+
+.title > h2 {
+    color: var(--gold);
+    font-size: 3rem;
+}
