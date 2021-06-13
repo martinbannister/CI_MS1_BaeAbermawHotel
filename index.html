@@ -7,30 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bea Abermaw Hotel</title>
     <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <a href="index.html"><img src="assets/images/logo.png" alt="" class="logo"></a>
-        <nav id="main_nav">
-            <button class="book">
-                Book Now
-            </button>
-            <ul class="navigation">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Rooms</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
+        <nav id="main_nav" class="row">
+            <a href="index.html" class="col-md-2"><img src="assets/images/logo.png" alt="" class="logo"></a>
+            <!-- <div class="col-sm-3">COL SM 4</div> -->
+            <div class="col-md-10">
+                <div class="row">
+                    <ul class="col-md-10 navigation">
+                        <li class="nav_item col-md-3 d-none d-md-inline-block"></li>
+                        <li class="nav_item col-6 col-md-2"><a href="#"><span class="material-icons md-18">house</span>Home</a></li>
+                        <li class="nav_item col-6 col-md-2"><a href="#"><span class="material-icons md-18">hotel</span>Rooms</a></li>
+                        <li class="nav_item col-6 col-md-2"><a href="#"><span class="material-icons md-18">groups</span>About Us</a></li>
+                        <li class="nav_item col-6 col-md-2"><a href="#"><span class="material-icons md-18">forum</span>Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="col-md-2">
+                        <button class="book">Book Now</button>
+                    </div>
+                </div>
+            </div>
 
         </nav>
 
         <div class="cover">
-            <div class="circle">
-                <div class="title">
-                    <h1>Bae Abermaw Hotel</h1>
-                    <h2>A View To Luxury</h2>
+
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="circle">
+                    <div class="title">
+                        <h1>Bae Abermaw Hotel</h1>
+                        <h2>A View To Luxury</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -40,8 +54,8 @@
 
     </section>
 
-    <footer>
-
+    <footer class="bg-secondary">
+        <div> footer</div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>

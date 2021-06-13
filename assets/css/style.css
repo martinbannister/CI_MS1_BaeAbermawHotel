@@ -1,22 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Raleway:wght@400;500;700&display=swap');
 
+/* -------------------------- Colours -------------------------- */
+
 :root {
     --gold: rgb(152, 147, 57);
     --dark-gold: rgb(142, 132, 61);
     --teal: rgb(36, 79, 129);
+    --primary-color:var(--dark-gold);
+    --secondary-color:var(--teal);
 }
+
+/* -------------------------- General -------------------------- */
+
+/* Rules for sizing Google Material Icons. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+/* -------------------------- Element Selectors -------------------------- */
 
 body {
     font-family: 'Raleway', sans-serif;
 }
 
+/* -------------------------- Header -------------------------- */
+
 .logo {
     float: left;
-    margin: 2rem;
+    margin: 2rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+    border: 3px solid var(--dark-gold);
 }
 
 #main_nav {
-    padding-top: 2rem;
+    margin: 0;
 }
 
 .navigation {
@@ -25,17 +44,30 @@ body {
     font-weight: 500;
 }
 
-.navigation > li {
+.nav_item {
     float: left;
-    color: #fff;
-    background-color: var(--dark-gold);
-    padding: 0.5rem 0.75rem;
-    margin: 0 0.5rem;
+    display: inline-block;
+    
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+    height: 50px;
+    /* padding: 0.5rem 0.75rem;
+    margin: 0 0.5rem; */
 }
 
-.navigation > li > a {
+/* not(:first-child) adapted from Bootstrap */
+.nav_item:not(:first-child) {
+    color: #fff;
+    background-color: var(--dark-gold);
+    font-size: 18px;
+}
+
+.nav_item > a {
     color: #fff;
     text-decoration: none;
+    width: 100%;
+    height: 50px;
 }
 
 .book {
@@ -44,38 +76,37 @@ body {
     border: var(--dark-gold) solid 3px;
     border-radius: 2rem;
     padding: 1rem 2rem;
-    margin: 0.5rem 1rem;
+    margin: 0 auto;
     font-size: 2rem;
     font-weight: 700;
-    float: right;
+    display: block;
 }
 
 .cover {
     background-image: url(../images/a_view_to_luxury.png);
-    background-position: center center;
-    background-size: 100% auto;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-origin: border-box;
-    background-clip: border-box;
     z-index: -1;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 960px;
-    text-align: center;
+    height: 700px;
+    margin-bottom: 4rem;
 }
 
 .circle {
     background-color: rgba(36, 79, 129, 0.8);
     border-radius: 50%;
-    width: 35rem;
-    height: 35rem;
-    position: relative;
+    width: 25rem;
+    height: 25rem;
+    /* position: relative; */
     margin: 10% auto 0;
     padding: 1.5rem 3rem;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .title {
@@ -84,10 +115,101 @@ body {
 
 .title > h1 {
     color: var(--dark-gold);
-    font-size: 4.5rem;
+    font-size: 3rem;
 }
 
 .title > h2 {
     color: var(--gold);
-    font-size: 3rem;
+    font-size: 2.25rem;
+}
+
+/* -------------------------- Body -------------------------- */
+
+
+/* -------------------------- Footer -------------------------- */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    color: #fff;
+}
+
+/* -------------------------- / Footer -------------------------- */
+
+/* -------------------------- Borders for checking layout -------------------------- */
+
+/* *[class^="col-"] {
+    border: 2px solid red;
+}
+
+div.row {
+    border: 2px solid yellow;
+}
+
+div.col {
+    border: 2px solid green;
+}
+
+div[class^="col-"] {
+    border: 2px solid orange;
+} */
+
+/* -------------------------- Media Queries -------------------------- */
+
+@media screen and (min-width:576px) {
+
+/* -------------------------- Header -------------------------- */
+
+    .navigation {
+        margin-top: 2rem;
+    }
+
+    .nav_item:not(:first-child) {
+        border-radius: 12px;
+        margin: 0 0.5rem;
+        border: 2px solid #fff
+    }
+
+    .book {
+        float: right;
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+
+    .circle {
+        background-color: rgba(36, 79, 129, 0.8);
+        border-radius: 50%;
+        width: 35rem;
+        height: 35rem;
+        /* position: fixed;
+        top: 10rem; */
+        margin: 0 auto;
+        padding: 1.5rem 3rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title > h1 {
+        color: var(--dark-gold);
+        font-size: 4.5rem;
+    }
+    
+    .title > h2 {
+        color: var(--gold);
+        font-size: 3rem;
+    }
+
+/* -------------------------- / Header -------------------------- */
+
+/* -------------------------- Footer -------------------------- */
+
+footer {
+    height: 8rem;
+    font-size: 2rem;
+}
+
+/* -------------------------- / Footer -------------------------- */
 }
