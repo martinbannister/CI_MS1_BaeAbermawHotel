@@ -6,17 +6,46 @@
     --gold: rgb(152, 147, 57);
     --dark-gold: rgb(142, 132, 61);
     --teal: rgb(36, 79, 129);
-    --primary-color:var(--dark-gold);
-    --secondary-color:var(--teal);
+    --primary-color: var(--dark-gold);
+    --secondary-color: var(--teal);
 }
+
+/* -------------------------- Borders for checking layout -------------------------- */
+
+/* *[class^="col-"] {
+    border: 2px solid red;
+}
+
+div.row {
+    border: 2px solid yellow;
+}
+
+div.col {
+    border: 2px solid green;
+}
+
+div[class^="col-"] {
+    border: 2px solid orange;
+} */
 
 /* -------------------------- General -------------------------- */
 
 /* Rules for sizing Google Material Icons. */
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
 
 
 /* -------------------------- Element Selectors -------------------------- */
@@ -29,9 +58,10 @@ body {
 
 .logo {
     float: left;
-    margin: 2rem 2rem 1rem 2rem;
-    border-radius: 2rem;
+    margin: 0.5rem 0.5rem 0rem 0.25rem;
+    border-radius: 1rem;
     border: 3px solid var(--dark-gold);
+    width: 95%;
 }
 
 #main_nav {
@@ -40,27 +70,21 @@ body {
 
 .navigation {
     list-style: none;
-    float:right;
+    float: right;
     font-weight: 500;
+    margin-top: 0.5rem;
 }
 
 .nav_item {
     float: left;
     display: inline-block;
-    
     text-align: center;
     padding-top: 10px;
     margin: 0;
-    height: 50px;
-    /* padding: 0.5rem 0.75rem;
-    margin: 0 0.5rem; */
-}
-
-/* not(:first-child) adapted from Bootstrap */
-.nav_item:not(:first-child) {
+    height: 55px;
     color: #fff;
     background-color: var(--dark-gold);
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 .nav_item > a {
@@ -101,7 +125,6 @@ body {
     border-radius: 50%;
     width: 25rem;
     height: 25rem;
-    /* position: relative; */
     margin: 10% auto 0;
     padding: 1.5rem 3rem;
     display: flex;
@@ -113,12 +136,12 @@ body {
     font-family: 'Parisienne', cursive;
 }
 
-.title > h1 {
+.title>h1 {
     color: var(--dark-gold);
     font-size: 3rem;
 }
 
-.title > h2 {
+.title>h2 {
     color: var(--gold);
     font-size: 2.25rem;
 }
@@ -128,48 +151,188 @@ body {
 
 /* -------------------------- Footer -------------------------- */
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 4rem;
+    min-height: 8vh;
     color: #fff;
+}
+
+.footer_nav {
+    list-style: none;
+    font-weight: 500;
+}
+
+.footer_nav_item {
+    display: inline-block;
+    text-align: center;
+    padding: 3px 7px;
+    margin: 2vh 1vw;
+    border: 3px solid var(--gold);
+    border-radius: 2rem;
+    color: #fff;
+}
+
+.footer_nav_item > a {
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
 }
 
 /* -------------------------- / Footer -------------------------- */
 
-/* -------------------------- Borders for checking layout -------------------------- */
 
-/* *[class^="col-"] {
-    border: 2px solid red;
-}
-
-div.row {
-    border: 2px solid yellow;
-}
-
-div.col {
-    border: 2px solid green;
-}
-
-div[class^="col-"] {
-    border: 2px solid orange;
-} */
 
 /* -------------------------- Media Queries -------------------------- */
 
-@media screen and (min-width:576px) {
+/* MEDIUM UP */
+@media screen and (min-width:769px) {
 
-/* -------------------------- Header -------------------------- */
+    /* -------------------------- Header -------------------------- */
+    
+    .logo {
+        float: left;
+        margin: 2rem 2rem 1rem 2rem;
+        border-radius: 2rem;
+        width: 80%;
+    }
+
+/* new navigation */
+    .navigation_lg {
+        margin: 2rem 0 0;
+        display: inline-block;
+        list-style: none;
+        font-weight: 500;
+    }
+
+    .nav_item_lg {
+        display: inline-block;
+        text-align: center;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        margin: 0 0 0 0.25rem;
+        border: 2px solid #fff;
+        font-size: 1.75rem;
+        color: #fff;
+        background-color: var(--dark-gold);
+    }
+
+    .nav_item_lg:first-child {
+        margin: 0 0 0 10vw;
+    }
+
+    .nav_item_lg > a {
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        height: 50px;
+    }
+
+    .book_lg {
+        margin: 0 0 0 1vw;
+        display: inline-block;
+        background-color: #fff;
+        color: var(--gold);
+        border: var(--dark-gold) solid 3px;
+        border-radius: 2rem;
+        padding: 1rem 2rem;
+        text-align: center;
+        font-size: 1.75vw;
+        font-weight: 700;
+    }
+/* / new navigation */
+
+    .book_lg > a {
+        text-decoration: none;
+        color: var(--gold);
+    }
+
+    .circle {
+        background-color: rgba(36, 79, 129, 0.8);
+        border-radius: 50%;
+        width: 35rem;
+        height: 35rem;
+        margin: 0 auto;
+        padding: 1.5rem 3rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title>h1 {
+        color: var(--dark-gold);
+        font-size: 4.5rem;
+    }
+
+    .title>h2 {
+        color: var(--gold);
+        font-size: 3rem;
+    }
+
+    /* -------------------------- / Header -------------------------- */
+
+    /* -------------------------- Footer -------------------------- */
+
+    footer {
+        min-height: 8vh;
+        font-size: 1.5rem;
+    }
+
+    .footer_nav {
+        list-style: none;
+        font-weight: 500;
+        margin-left: 1rem;
+    }
+    
+    .footer_nav_item {
+        display: inline-block;
+        margin: 0.5vh 0;
+        border: none;
+        text-align: left;
+    }
+
+    .footer_nav_item > a {
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        height: 50px;
+    }
+
+    .footer_nav_item:hover {
+        text-decoration: underline;
+    }
+
+    /* -------------------------- / Footer -------------------------- */
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ SMALL - MEDIUM ~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width:576px and max-width:768px) {
+
+    /* -------------------------- Header -------------------------- */
+    .logo {
+        float: left;
+        margin: 2rem 2rem 1rem 2rem;
+        border-radius: 2rem;
+        width: 80%;
+    }
 
     .navigation {
         margin-top: 2rem;
     }
 
+/* not(:first-child) adapted from Bootstrap */
     .nav_item:not(:first-child) {
         border-radius: 12px;
-        margin: 0 0.5rem;
-        border: 2px solid #fff
+        font-size: 1.75vw;
+    }
+
+    .nav_item > a {
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        height: 50px;
     }
 
     .book {
@@ -183,8 +346,6 @@ div[class^="col-"] {
         border-radius: 50%;
         width: 35rem;
         height: 35rem;
-        /* position: fixed;
-        top: 10rem; */
         margin: 0 auto;
         padding: 1.5rem 3rem;
         display: flex;
@@ -192,24 +353,42 @@ div[class^="col-"] {
         text-align: center;
     }
 
-    .title > h1 {
+    .title>h1 {
         color: var(--dark-gold);
         font-size: 4.5rem;
     }
-    
-    .title > h2 {
+
+    .title>h2 {
         color: var(--gold);
         font-size: 3rem;
     }
 
-/* -------------------------- / Header -------------------------- */
+    /* -------------------------- / Header -------------------------- */
 
-/* -------------------------- Footer -------------------------- */
+    /* -------------------------- Footer -------------------------- */
 
-footer {
-    height: 8rem;
-    font-size: 2rem;
-}
+    footer {
+        min-height: 8vh;
+        font-size: 2rem;
+    }
 
-/* -------------------------- / Footer -------------------------- */
+    .footer_nav {
+        list-style: none;
+        font-weight: 500;
+        margin-top: 0.5rem;
+    }
+    
+    .footer_nav_item {
+        display: inline-block;
+        color: #fff;
+    }
+
+    .footer_nav_item > a {
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        height: 50px;
+    }
+
+    /* -------------------------- / Footer -------------------------- */
 }
