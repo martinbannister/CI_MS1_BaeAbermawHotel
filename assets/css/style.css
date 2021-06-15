@@ -54,6 +54,11 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* -------------------------- Header -------------------------- */
 
 .logo {
@@ -104,6 +109,16 @@ body {
     font-size: 2rem;
     font-weight: 700;
     display: block;
+}
+
+.book > a {
+    text-decoration: none;
+    color: var(--gold);
+}
+
+.book > a:hover {
+    text-decoration: none;
+    color: var(--gold);
 }
 
 .cover {
@@ -160,18 +175,25 @@ footer {
 }
 
 .footer_nav {
+    display: block;
     list-style: none;
     font-weight: 500;
+    margin: 1vh 0;
 }
 
 .footer_nav_item {
     display: inline-block;
     text-align: center;
     padding: 3px 7px;
-    margin: 2vh 1vw;
+    margin: 1vh 1vw;
     border: 3px solid var(--gold);
     border-radius: 2rem;
     color: #fff;
+}
+
+.footer_nav_item:hover {
+    border: 3px solid #fff;
+    background-color: var(--gold);
 }
 
 .footer_nav_item > a {
@@ -179,6 +201,24 @@ footer {
     text-decoration: none;
     width: 100%;
     height: 50px;
+}
+
+.footer_nav_item a:hover {
+    color: var(--teal);
+}
+
+.footer_social {
+    margin: 1vh 0;
+}
+
+.social_link {
+    color: #fff;
+    font-size: 3rem;
+    margin: 0 1vw;
+}
+
+.social_link:hover {
+    color: var(--dark-gold);
 }
 
 /* -------------------------- / Footer -------------------------- */
@@ -242,12 +282,12 @@ footer {
         font-size: 1.75vw;
         font-weight: 700;
     }
-/* / new navigation */
 
     .book_lg > a {
         text-decoration: none;
         color: var(--gold);
     }
+/* / new navigation */
 
     .circle {
         background-color: rgba(36, 79, 129, 0.8);
@@ -278,30 +318,6 @@ footer {
     footer {
         min-height: 8vh;
         font-size: 1.5rem;
-    }
-
-    .footer_nav {
-        list-style: none;
-        font-weight: 500;
-        margin-left: 1rem;
-    }
-    
-    .footer_nav_item {
-        display: inline-block;
-        margin: 0.5vh 0;
-        border: none;
-        text-align: left;
-    }
-
-    .footer_nav_item > a {
-        color: #fff;
-        text-decoration: none;
-        width: 100%;
-        height: 50px;
-    }
-
-    .footer_nav_item:hover {
-        text-decoration: underline;
     }
 
     /* -------------------------- / Footer -------------------------- */
@@ -339,6 +355,16 @@ footer {
         float: right;
         margin-top: 2rem;
         margin-right: 2rem;
+    }
+
+    .book > a {
+        text-decoration: none;
+        color: var(--gold);
+    }
+
+    .book a:hover {
+        text-decoration: none;
+        color: var(--gold);
     }
 
     .circle {
