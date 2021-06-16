@@ -8,6 +8,7 @@
     --teal: rgb(36, 79, 129);
     --primary-color: var(--dark-gold);
     --secondary-color: var(--teal);
+    --gray-color-light: rgba(255, 255, 255, 0.8);
 }
 
 /* -------------------------- Borders for checking layout -------------------------- */
@@ -48,10 +49,11 @@ div[class^="col-"] {
 }
 
 
-/* -------------------------- Element Selectors -------------------------- */
+/* -------------------------- global Selectors -------------------------- */
 
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: var(--teal);
 }
 
 a:hover {
@@ -82,7 +84,6 @@ a:hover {
 
 .nav_item {
     float: left;
-    display: inline-block;
     text-align: center;
     padding-top: 10px;
     margin: 0;
@@ -92,7 +93,7 @@ a:hover {
     font-size: 1.5rem;
 }
 
-.nav_item > a {
+.nav_item>a {
     color: #fff;
     text-decoration: none;
     width: 100%;
@@ -111,12 +112,12 @@ a:hover {
     display: block;
 }
 
-.book > a {
+.book>a {
     text-decoration: none;
     color: var(--gold);
 }
 
-.book > a:hover {
+.book>a:hover {
     text-decoration: none;
     color: var(--gold);
 }
@@ -163,6 +164,30 @@ a:hover {
 
 /* -------------------------- Body -------------------------- */
 
+.features {
+    margin-bottom: 8vh;
+}
+
+.feature {
+    border-radius: 1rem;
+    border: 3px solid var(--dark-gold);
+    text-align: center;
+}
+
+.feature>ul {
+    list-style: none;
+    width: auto;
+    margin: 0 auto;
+}
+
+.feature li::before {
+    content: "\2713";
+    padding-right: 8px;
+    color: var(--gold);
+}
+
+/* -------------------------- / Body -------------------------- */
+
 
 /* -------------------------- Footer -------------------------- */
 
@@ -172,6 +197,7 @@ footer {
     width: 100%;
     min-height: 8vh;
     color: #fff;
+    border-top: 1px solid #fff;
 }
 
 .footer_nav {
@@ -196,7 +222,7 @@ footer {
     background-color: var(--gold);
 }
 
-.footer_nav_item > a {
+.footer_nav_item>a {
     color: #fff;
     text-decoration: none;
     width: 100%;
@@ -231,7 +257,7 @@ footer {
 @media screen and (min-width:769px) {
 
     /* -------------------------- Header -------------------------- */
-    
+
     .logo {
         float: left;
         margin: 2rem 2rem 1rem 2rem;
@@ -239,7 +265,7 @@ footer {
         width: 80%;
     }
 
-/* new navigation */
+    /* new navigation */
     .navigation_lg {
         margin: 2rem 0 0;
         display: inline-block;
@@ -263,7 +289,7 @@ footer {
         margin: 0 0 0 10vw;
     }
 
-    .nav_item_lg > a {
+    .nav_item_lg>a {
         color: #fff;
         text-decoration: none;
         width: 100%;
@@ -283,11 +309,12 @@ footer {
         font-weight: 700;
     }
 
-    .book_lg > a {
+    .book_lg>a {
         text-decoration: none;
         color: var(--gold);
     }
-/* / new navigation */
+
+    /* / new navigation */
 
     .circle {
         background-color: rgba(36, 79, 129, 0.8);
@@ -324,7 +351,7 @@ footer {
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ SMALL - MEDIUM ~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media screen and (min-width:576px and max-width:768px) {
+@media screen and (min-width:576px) and (max-width:768px) {
 
     /* -------------------------- Header -------------------------- */
     .logo {
@@ -338,13 +365,13 @@ footer {
         margin-top: 2rem;
     }
 
-/* not(:first-child) adapted from Bootstrap */
+    /* not(:first-child) adapted from Bootstrap */
     .nav_item:not(:first-child) {
         border-radius: 12px;
         font-size: 1.75vw;
     }
 
-    .nav_item > a {
+    .nav_item>a {
         color: #fff;
         text-decoration: none;
         width: 100%;
@@ -357,7 +384,7 @@ footer {
         margin-right: 2rem;
     }
 
-    .book > a {
+    .book>a {
         text-decoration: none;
         color: var(--gold);
     }
@@ -403,13 +430,13 @@ footer {
         font-weight: 500;
         margin-top: 0.5rem;
     }
-    
+
     .footer_nav_item {
         display: inline-block;
         color: #fff;
     }
 
-    .footer_nav_item > a {
+    .footer_nav_item>a {
         color: #fff;
         text-decoration: none;
         width: 100%;
