@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bea Abermaw Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/fe7dbc17ad.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Modal for booking -->
+    <div class="modal" id="book_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a href="#" class="btn close" role="button" aria-label="Close">
+                    <span class="material-icons" aria-hidden="true">
+                        close
+                    </span>
+                </a>
+                <h5 class="modal-title">Search for availability</h5>
+                <form action="https://formdump.codeinstitute.net" method="POST">
+                    <div class="form-row">
+                        <div class="col-sm">
+                            <label for="checkIn" class="required">Check in</label>
+                            <input type="date" id="checkIn" name="Check In" class="form-control" required>
+                        </div>
+                        <div class="col-sm">
+                            <label for="checkOut" class="required">Check out</label>
+                            <input type="date" id="checkOut" name="Check Out" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-row row-eq-spacing">
+                        <div class="col-sm">
+                            <label for="req" class="required">People and Rooms</label>
+                            <select id="req" class="form-control" name="Requirements" required>
+                                <option></option>
+                                <option value="2A0C1R">2 Adults, 0 Children, 1 Room</option>
+                                <option value="2A1C1R">2 Adults, 1 Child, 1 Room</option>
+                                <option value="2A2C2R">2 Adults, 2 Children, 2 Rooms</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row row-eq-spacing-sm">
+                        <div class="col-sm">
+                            <label for="first-name" class="required">First name</label>
+                            <input type="text" class="form-control" name="Firstname" id="first-name"
+                                placeholder="First name" required>
+                        </div>
+                        <div class="col-sm">
+                            <label for="last-name" class="required">Last name</label>
+                            <input type="text" class="form-control" name="lastname" id="last-name"
+                                placeholder="Last name" required>
+                        </div>
+                    </div>
+                    <div class="form-row row-eq-spacing-sm">
+                        <div class="col-sm">
+                            <label for="email" class="required">Email Address</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                                required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Book</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- / Modal for booking -->
+
+    <div class="page-wrapper">
+        <div class="content-wrapper">
+            <header>
+                <nav id="main_nav" class="row">
+                    <a href="index.html" class="col-4 col-md-2"><img src="assets/images/logo.png"
+                            alt="Bea Abermaw Hotel" class="logo"></a>
+                    <div class="col-8 col-md-10">
+                        <div class="row d-lg-none">
+                            <ul class="col-12 navigation">
+                                <li class="nav_item col-6 col-sm-3 col-lg-2"><a href="index.html"><span
+                                            class="material-icons md-18 d-sm-none d-lg-inline">house</span> Home</a>
+                                </li>
+                                <li class="nav_item col-6 col-sm-3 col-lg-2"><a href="rooms.html"><span
+                                            class="material-icons md-18 d-sm-none d-lg-inline">hotel</span>
+                                        Rooms</a>
+                                </li>
+                                <li class="nav_item col-6 col-sm-3 col-lg-2"><a href="about.html"><span
+                                            class="material-icons md-18 d-sm-none d-lg-inline">groups</span>
+                                        About</a>
+                                </li>
+                                <li class="nav_item col-6 col-sm-3 col-lg-2"><a href="contact.html"><span
+                                            class="material-icons md-18 d-sm-none d-lg-inline">forum</span>
+                                        Contact</a>
+                                </li>
+                            </ul>
+                            <div class="col-12">
+                                <button class="book"><a href="#book_modal">Book Now</a></button>
+                            </div>
+                        </div>
+                        <div class="row d-none d-lg-block">
+                            <div class="">
+                                <ul class="navigation_lg col">
+                                    <li class="nav_item_lg col-2"><a href="index.html"><span
+                                                class="material-icons md-18 d-sm-none d-lg-inline">house</span>
+                                            Home</a>
+                                    </li>
+                                    <li class="nav_item_lg col-2"><a href="rooms.html"><span
+                                                class="material-icons md-18 d-sm-none d-lg-inline">hotel</span>
+                                            Rooms</a></li>
+                                    <li class="nav_item_lg col-2"><a href="about.html"><span
+                                                class="material-icons md-18 d-sm-none d-lg-inline">groups</span>
+                                            About</a></li>
+                                    <li class="nav_item_lg col-2"><a href="contact.html"><span
+                                                class="material-icons md-18 d-sm-none d-lg-inline">forum</span>
+                                            Contact</a></li>
+                                    <li class="book_lg col-2"><a href="#book_modal">Book Now</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </nav>
+
+            </header>
+
+            <section>
+                <div class="w-full w-md-three-quarter about_container">
+                    <div class="card">
+                        <h2 class="card-title">Bae Abermaw Hotel</h2>
+                        <p>The Bae Abermaw is an elegant detached Victorian property affording spectacular views over
+                            the mouth of the Mawddach estuary and Barmouth bay. A stone building decorated in a light,
+                            airy style, the fourteen bed hotel offers a relaxing, modern atmosphere for couples, friends
+                            and families. The hotel is fully licensed with drinks available in the lounge bar and
+                            gardens, where you can take in the beautiful views of the surrounding area.</p>
+                        <p>All the bedrooms have en-suite bathrooms as well as tea and coffee facilities, complimentary
+                            toiletries, hairdryers and smart TV. Breakfast is a full Welsh breakfast, with vegetarian
+                            and gluten-free options available, along with fruits, yoghurts, cereals and pastries. Pets
+                            are allowed in our double standard and family rooms with a £10/night charge for extra
+                            cleaning, providing they're well behaved.</p>
+                        <p>Barmouth is situated on the west coast of North Wales, on the edge of the Snowdonia National
+                            Park, which is the largest National Park in Wales. Barmouth itself lies between a mountain
+                            range and the Irish sea on the mouth of the river Mawddach. The road between Barmouth and
+                            Dolgellau offers amazing views of the estuary, it’s worth a stop to take a look at the
+                            breathtaking views. There also some spectacular walks higher in the hills if you have a
+                            little more time to explore, a camera is essential as the views are astounding. Barmouth is
+                            the perfect destination for vintage seaside holidays, walking & outdoor activity breaks, or
+                            fresh air getaways at any time of year.</p>
+                    </div>
+                </div>
+
+                <div class="w-full w-md-three-quarter about_container">
+                    <div class="card">
+                        <h2 class="card-title">Location</h2>
+                        <p>Situated in the beautiful seaside town of Barmouth, on the West Coast of Wales Our hotel
+                            offers a gateway to the majestic mountains of Snowdonia, and there are many more activities
+                            in and around Barmouth for the family to enjoy. We have a beautiful outdoor bar overlooking
+                            the estuary with a spectacular view. Which you can enjoy with a glass of wine from a
+                            carefully chosen selection.
+                        </p>
+                        <p>Don't let the steep hill to the Hotel put you off, that's how we get our view!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w-full w-md-three-quarter about_container">
+                    <div class="card">
+                        <h2 class="card-title">Local Interest</h2>
+                        <p>The Mawddach trail leads across the bridge and into Dolgellau, a small town on the edge of
+                            Snowdonia National Park, across the estuary is the famous Blue Lake, which offers amazing
+                            views of the Mawddach estuary and the Irish sea. The area is well known for cycling and the
+                            Coed y Brenin visitor centre where cycle trails are available for the whole family, no
+                            matter what your abilities are.Cader Idris is one of the highest southern mountains in
+                            Snowdonia and can be climbed easily in a day.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="bg-secondary">
+                <div class="row">
+                    <div class="col">
+                        <ul class="footer_nav">
+                            <li class="footer_nav_item"><a href="rooms.html">Rooms</a></li>
+                            <li class="footer_nav_item"><a href="about.html">About</a></li>
+                            <li class="footer_nav_item"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-auto footer_social">
+                        <a class="social_link" href="https://facebook.com" target="_blank"
+                            rel="noopener noreferrer"><span class="fab fa-facebook"></span></a>
+                        <a class="social_link" href="https://twitter.com" target="_blank"
+                            rel="noopener noreferrer"><span class="fab fa-twitter"></span></a>
+                        <a class="social_link" href="https://instagram.com" target="_blank"
+                            rel="noopener noreferrer"><span class="fab fa-instagram"></span></a>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+</body>
+
+</html>

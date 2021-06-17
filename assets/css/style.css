@@ -145,8 +145,8 @@ a:hover {
     width: 100%;
     height: 700px;
     margin-bottom: 4rem;
-    opacity: 0.8;
-    animation: fade_in 3s forwards;
+    opacity: 0.9;
+    animation: fade_in 2s forwards;
 }
 
 @keyframes fade_in {
@@ -155,7 +155,7 @@ a:hover {
     }
 
     to {
-        opacity: 0.8;
+        opacity: 0.9;
     }
 }
 
@@ -187,7 +187,7 @@ a:hover {
 
 /* -------------------------- Body -------------------------- */
 
-.features {
+section {
     margin-bottom: 8vh;
 }
 
@@ -224,6 +224,39 @@ input[type="date"] {
     border: 1px solid var(--dark-gold);
 }
 
+.thumbnail_container {
+    position: relative;
+}
+
+.thumbnail_container:hover .thumbnail {
+    opacity: 0.6;
+}
+
+.thumbnail_container:hover .thumbnail_text {
+    opacity: 1;
+}
+
+.thumbnail {
+    opacity: 1;
+}
+
+.thumbnail_text {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #fff;
+    font-weight: 700;
+}
+
+.img_full {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.about_container {
+    margin: 0 auto;
+}
 /* -------------------------- / Body -------------------------- */
 
 
