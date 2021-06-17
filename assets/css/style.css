@@ -14,8 +14,8 @@
     --gray-color-light: rgba(255, 255, 255, 0.8);
     --lm-input-border-color-hover:var(--teal);
     --lm-button-primary-box-shadow-focus:rgba(36, 79, 129, 0.6);
-    --lm-button-primary-bg-color-hover:rgba(36, 79, 129, 0.8);
-    --lm-button-secondary-bg-color-hover:var(--dark-gold);
+    --lm-button-primary-bg-color-hover:rgba(36, 79, 129, 0.7);
+    --lm-button-secondary-bg-color-hover:rgba(142, 132, 61, 0.7);
     --lm-button-secondary-text-color: #fff;
     --lm-button-secondary-border-color-hover:var(--teal);
 }
@@ -71,7 +71,6 @@ a:hover {
 }
 
 .btn.btn-primary:hover {
-    background-color: var(--teal);
     border: 1px solid var(--dark-gold);
 }
 
