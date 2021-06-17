@@ -15,6 +15,9 @@
     --lm-input-border-color-hover:var(--teal);
     --lm-button-primary-box-shadow-focus:rgba(36, 79, 129, 0.6);
     --lm-button-primary-bg-color-hover:rgba(36, 79, 129, 0.8);
+    --lm-button-secondary-bg-color-hover:var(--dark-gold);
+    --lm-button-secondary-text-color: #fff;
+    --lm-button-secondary-border-color-hover:var(--teal);
 }
 
 /* -------------------------- Borders for checking layout -------------------------- */
