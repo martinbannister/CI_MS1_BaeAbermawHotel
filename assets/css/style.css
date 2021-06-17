@@ -3,12 +3,18 @@
 /* -------------------------- Colours -------------------------- */
 
 :root {
+    /* Custom Site Colours */
     --gold: rgb(152, 147, 57);
     --dark-gold: rgb(142, 132, 61);
     --teal: rgb(36, 79, 129);
+
+    /* Customised Halfmoon Framework Colours */
     --primary-color: var(--dark-gold);
     --secondary-color: var(--teal);
     --gray-color-light: rgba(255, 255, 255, 0.8);
+    --lm-input-border-color-hover:var(--teal);
+    --lm-button-primary-box-shadow-focus:rgba(36, 79, 129, 0.6);
+    --lm-button-primary-bg-color-hover:rgba(36, 79, 129, 0.8);
 }
 
 /* -------------------------- Borders for checking layout -------------------------- */
@@ -49,7 +55,7 @@ div[class^="col-"] {
 }
 
 
-/* -------------------------- global Selectors -------------------------- */
+/* -------------------------- general Selectors -------------------------- */
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -59,6 +65,11 @@ body {
 a:hover {
     text-decoration: none;
     color: #fff;
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--teal);
+    border: 2px solid var(--dark-gold);
 }
 
 /* -------------------------- Header -------------------------- */
@@ -134,6 +145,18 @@ a:hover {
     width: 100%;
     height: 700px;
     margin-bottom: 4rem;
+    opacity: 0.8;
+    animation: fade_in 3s forwards;
+}
+
+@keyframes fade_in {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 0.8;
+    }
 }
 
 .circle {
@@ -184,6 +207,21 @@ a:hover {
     content: "\2713";
     padding-right: 8px;
     color: var(--gold);
+}
+
+label {
+    color: var(--teal);
+    font-weight: 500;
+}
+
+input[type="date"] {
+    display: block;
+    border: 1px solid var(--dark-gold);
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border: 1px solid var(--dark-gold);
 }
 
 /* -------------------------- / Body -------------------------- */
@@ -363,12 +401,6 @@ footer {
 
     .navigation {
         margin-top: 2rem;
-    }
-
-    /* not(:first-child) adapted from Bootstrap */
-    .nav_item:not(:first-child) {
-        border-radius: 12px;
-        font-size: 1.75vw;
     }
 
     .nav_item>a {

@@ -13,6 +13,63 @@
 </head>
 
 <body>
+    <!-- Modal for booking -->
+    <div class="modal" id="book_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a href="#" class="btn close" role="button" aria-label="Close">
+                    <span class="material-icons" aria-hidden="true">
+                        close
+                    </span>
+                </a>
+                <h5 class="modal-title">Search for availability</h5>
+                <form action="https://formdump.codeinstitute.net" method="POST">
+                    <div class="form-row">
+                        <div class="col-sm">
+                            <label for="checkIn" class="required">Check in</label>
+                            <input type="date" id="checkIn" name="Check In" class="form-control" required>
+                        </div>
+                        <div class="col-sm">
+                            <label for="checkOut" class="required">Check out</label>
+                            <input type="date" id="checkOut" name="Check Out" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-row row-eq-spacing">
+                        <div class="col-sm">
+                            <label for="req" class="required">People and Rooms</label>
+                            <select id="req" class="form-control" name="Requirements" required>
+                                <option></option>
+                                <option value="2A0C1R">2 Adults, 0 Children, 1 Room</option>
+                                <option value="2A1C1R">2 Adults, 1 Child, 1 Room</option>
+                                <option value="2A2C2R">2 Adults, 2 Children, 2 Rooms</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row row-eq-spacing-sm">
+                        <div class="col-sm">
+                            <label for="first-name" class="required">First name</label>
+                            <input type="text" class="form-control" name="Firstname" id="first-name"
+                                placeholder="First name" required>
+                        </div>
+                        <div class="col-sm">
+                            <label for="last-name" class="required">Last name</label>
+                            <input type="text" class="form-control" name="lastname" id="last-name"
+                                placeholder="Last name" required>
+                        </div>
+                    </div>
+                    <div class="form-row row-eq-spacing-sm">
+                        <div class="col-sm">
+                            <label for="email" class="required">Email Address</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                                required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Book</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- / Modal for booking -->
 
     <div class="page-wrapper">
         <div class="content-wrapper">
@@ -27,13 +84,16 @@
                                             class="material-icons md-18 d-sm-none d-lg-inline">house</span> Home</a>
                                 </li>
                                 <li class="nav_item col-6 col-sm-3 col-lg-2"><a href="rooms.html"><span
-                                            class="material-icons md-18 d-sm-none d-lg-inline">hotel</span> Rooms</a>
+                                            class="material-icons md-18 d-sm-none d-lg-inline">hotel</span>
+                                        Rooms</a>
                                 </li>
                                 <li class="nav_item col-6 col-sm-3 col-lg-2"><a href="about.html"><span
-                                            class="material-icons md-18 d-sm-none d-lg-inline">groups</span> About</a>
+                                            class="material-icons md-18 d-sm-none d-lg-inline">groups</span>
+                                        About</a>
                                 </li>
                                 <li class="nav_item col-6 col-sm-3 col-lg-2"><a href="contact.html"><span
-                                            class="material-icons md-18 d-sm-none d-lg-inline">forum</span> Contact</a>
+                                            class="material-icons md-18 d-sm-none d-lg-inline">forum</span>
+                                        Contact</a>
                                 </li>
                             </ul>
                             <div class="col-12">
@@ -44,7 +104,8 @@
                             <div class="">
                                 <ul class="navigation_lg col">
                                     <li class="nav_item_lg col-2"><a href="index.html"><span
-                                                class="material-icons md-18 d-sm-none d-lg-inline">house</span> Home</a>
+                                                class="material-icons md-18 d-sm-none d-lg-inline">house</span>
+                                            Home</a>
                                     </li>
                                     <li class="nav_item_lg col-2"><a href="rooms.html"><span
                                                 class="material-icons md-18 d-sm-none d-lg-inline">hotel</span>
@@ -129,9 +190,12 @@
                         </ul>
                     </div>
                     <div class="col-auto footer_social">
-                        <a class="social_link" href="https://facebook.com" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook"></span></a>
-                        <a class="social_link" href="https://twitter.com" target="_blank" rel="noopener noreferrer"><span class="fab fa-twitter"></span></a>
-                        <a class="social_link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><span class="fab fa-instagram"></span></a>
+                        <a class="social_link" href="https://facebook.com" target="_blank"
+                            rel="noopener noreferrer"><span class="fab fa-facebook"></span></a>
+                        <a class="social_link" href="https://twitter.com" target="_blank"
+                            rel="noopener noreferrer"><span class="fab fa-twitter"></span></a>
+                        <a class="social_link" href="https://instagram.com" target="_blank"
+                            rel="noopener noreferrer"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </footer>
