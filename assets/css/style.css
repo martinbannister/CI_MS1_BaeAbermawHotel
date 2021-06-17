@@ -72,7 +72,7 @@ a:hover {
 
 .btn.btn-primary:hover {
     background-color: var(--teal);
-    border: 2px solid var(--dark-gold);
+    border: 1px solid var(--dark-gold);
 }
 
 /* -------------------------- Header -------------------------- */
