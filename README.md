@@ -45,9 +45,21 @@ The user experienced is based around the main business goal of converting more w
 - Business People
 - Casual Diners
 ### User Stories
+I have chosen to break down my user stories into three separate sections based on how a user will interact with the website.  **First time visitors** will invariably want more information than **returning visitors** who are more likely to know exactly where to go or in the case of Bae Abermaw Hotel book a room.  Finally we have the **hotel owner's** perspective of how they want the site to be used.
 #### First Time Visitors
-#### Regular Visitors
-#### Website Owner
+1. As a first time visitor I want know what the hotel offer and whether it can cater for my family and dog.
+2. As a first time visitor I want to be able to access the hotel's social media accounts so I can see what real people think of the place.
+3. As a first time visitor I want to be able to see the rooms to establish if they're suitable for my needs.
+4. As a first time visitor I want to find the location of the hotel so I can check if it's close to other attractions in the area.
+5. As a first time visitor I want to be able to book a room easily if I like that I see.
+#### Returning Visitors
+6. As a returning visitor I want to book a room quickly and easily.
+7. As a returning visitor I would like to read more information about the area that I might have overlooked on my first visit.
+8. As a returning visitor I want to spend time looking at photo's of the room I've got booked so I can look forward to my holiday.
+#### Hotel Owner
+9. As the hotel owner I want customers to be able to book a room with the minimum amount of friction.
+10. As the hotel owner I want to convey the quality of the hotel and rooms through the website.
+11. As the hotel owner I want the website to reflect the style and brand of the hotel.
 
 ## Scope
 ## Design
