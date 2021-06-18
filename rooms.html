@@ -38,7 +38,7 @@
                         <div class="col-sm">
                             <label for="req" class="required">People and Rooms</label>
                             <select id="req" class="form-control" name="Requirements" required>
-                                <option></option>
+                                <option disabled selected value>-- Select a Room Option --</option>
                                 <option value="2A0C1R">2 Adults, 0 Children, 1 Room</option>
                                 <option value="2A1C1R">2 Adults, 1 Child, 1 Room</option>
                                 <option value="2A2C2R">2 Adults, 2 Children, 2 Rooms</option>
@@ -101,7 +101,7 @@
     </div>
 
     <!-- Family Sea View room modal -->
-    <div class="modal" id="ds_modal" tabindex="-1" role="dialog">
+    <div class="modal" id="fsv_modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content modal-content-media w-full w-md-half">
                 <a href="#" class="close" role="button" aria-label="Close">
@@ -140,7 +140,7 @@
                                 </li>
                             </ul>
                             <div class="col-12">
-                                <button class="book"><a href="#book_modal">Book Now</a></button>
+                                <a href="#book_modal" class="book">Book Now</a>
                             </div>
                         </div>
                         <!-- secondary navigation for screen above 768px -->
@@ -207,7 +207,7 @@
                 <div class="row row-eq-spacing">
                     <div class="col-12 col-md-6 text-center">
                         <div class="content thumbnail_container">
-                            <a href="#ds_modal"><img src="assets/images/family_room_sea_view_small.png" class="thumbnail w-full w-md-500" alt="Standard Double room"></a>
+                            <a href="#fsv_modal"><img src="assets/images/family_room_sea_view_small.png" class="thumbnail w-full w-md-500" alt="Standard Double room"></a>
                             <div class="thumbnail_text">
                                 Click for more...
                             </div>
