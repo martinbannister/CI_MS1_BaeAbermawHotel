@@ -62,6 +62,12 @@ I have chosen to break down my user stories into three separate sections based o
 11. As the hotel owner I want the website to reflect the style and brand of the hotel.
 
 ## Scope
+Based on the goals, business and user requirements for this inital release I have opted for a simple tree structure with only 1 level of depth.  This means no information is hidden or burried, the user can't get lost and there is a strong call to action on every page.<br>
+Based on that I have defined the following features:
+- A Navigation header is present on all pages and does not collapse completely on mobile failitating rapid navigation.
+- A fixed footer at the bottom of every page offers navigation when the header navigation is out of view and provides social media links.
+- A *book now* button provides a modal form to book a room from whichever page.
+- The home page includes key information about the facilities available.
 ## Design
 ### Colour Scheme
 ### Typography
