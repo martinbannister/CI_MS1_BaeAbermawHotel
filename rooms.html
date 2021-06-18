@@ -70,6 +70,7 @@
 
     <!-- Modals for rooms images -->
 
+    <!-- Double Sea View room modal -->
     <div class="modal" id="dsv_modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content modal-content-media w-full w-md-half">
@@ -84,6 +85,7 @@
         </div>
     </div>
 
+    <!-- Double Standard room modal -->
     <div class="modal" id="ds_modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content modal-content-media w-full w-md-half">
@@ -98,6 +100,21 @@
         </div>
     </div>
 
+    <!-- Family Sea View room modal -->
+    <div class="modal" id="ds_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-content-media w-full w-md-half">
+                <a href="#" class="close" role="button" aria-label="Close">
+                    <span class="material-icons" aria-hidden="true">
+                        close
+                    </span>
+                </a>
+                <img src="assets/images/family_room_sea_view.jpg" class="img-fluid img_full" alt="Standard double room">
+                <img src="assets/images/family_room_sea_view_ensuite.jpg" class="img-fluid img_full" alt="Ensuite for standard room">
+            </div>
+        </div>
+    </div>
+
 
     <!-- / Modals for rooms images -->
 
@@ -106,8 +123,10 @@
     <div class="page-wrapper">
         <div class="content-wrapper">
             <header>
+                <!-- navigation -->
                 <nav id="main_nav" class="row">
                     <a href="index.html" class="col-4 col-md-2"><img src="assets/images/logo.png" alt="Bea Abermaw Hotel" class="logo"></a>
+                    <!-- main navigation for screens up to 768px -->
                     <div class="col-8 col-md-10">
                         <div class="row d-lg-none">
                             <ul class="col-12 navigation">
@@ -124,6 +143,7 @@
                                 <button class="book"><a href="#book_modal">Book Now</a></button>
                             </div>
                         </div>
+                        <!-- secondary navigation for screen above 768px -->
                         <div class="row d-none d-lg-block">
                             <div class="">
                                 <ul class="navigation_lg col">
@@ -146,7 +166,7 @@
             <section>
 
                 <div class="row row-eq-spacing">
-                    <div class="col-12 col-md-6 text-center">
+                    <div class="col-12 col-md-6 text-center"> <!-- full width on XS and SM screen, 50% on MD screens and up -->
                         <div class="content thumbnail_container">
                             <a href="#dsv_modal"><img src="assets/images/double_sea_view_small.png" class="thumbnail w-full w-md-500" alt="Double room with sea view"></a>
                             <div class="thumbnail_text">
@@ -183,6 +203,26 @@
                         </div>
                     </div>
                 </div> <!-- / Room 2 -->
+
+                <div class="row row-eq-spacing">
+                    <div class="col-12 col-md-6 text-center">
+                        <div class="content thumbnail_container">
+                            <a href="#ds_modal"><img src="assets/images/family_room_sea_view_small.png" class="thumbnail w-full w-md-500" alt="Standard Double room"></a>
+                            <div class="thumbnail_text">
+                                Click for more...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card h-full">
+                            <h2 class="card-title">
+                                Family room-Ensuite-Sea View
+                            </h2>
+                            <p>Discover our sea views in this spacious room with one super king bed, a sofa bed, coffee and tea making facility, bathroom with a walk-in shower and smart TV. One of our pet-friendly rooms.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- / Room 3 -->
 
             </section>
             <!-- / BODY SECTION -->
