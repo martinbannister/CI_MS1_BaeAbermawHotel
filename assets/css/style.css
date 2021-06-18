@@ -74,6 +74,12 @@ a:hover {
     border: 1px solid var(--dark-gold);
 }
 
+h1 {
+    color: var(--dark-gold);
+    margin-top: 3vh;
+    margin-left: 7vw;
+}
+
 /* -------------------------- Header -------------------------- */
 
 .logo {
