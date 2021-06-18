@@ -23,7 +23,11 @@ The business goals of Bae Abermaw Hotel are:
 - Showcase the quality of hotel.
 - Showcase the local area and amenities accessible from the hotel.
 ### User Goals
-- 
+- Find a high quality hotel that also accepts pets.
+- Be able to book quickly and easily without having to travel around the site.
+- See the rooms and facilities on offer.
+- See what the local area has to offer when staying.
+
 [Back to Index](#table-of-contents)
 
 ## UX
