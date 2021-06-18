@@ -38,7 +38,7 @@
                         <div class="col-sm">
                             <label for="req" class="required">People and Rooms</label>
                             <select id="req" class="form-control" name="Requirements" required>
-                                <option></option>
+                                <option disabled selected value>-- Select a Room Option --</option>
                                 <option value="2A0C1R">2 Adults, 0 Children, 1 Room</option>
                                 <option value="2A1C1R">2 Adults, 1 Child, 1 Room</option>
                                 <option value="2A2C2R">2 Adults, 2 Children, 2 Rooms</option>
@@ -86,7 +86,7 @@
                                 </li>
                             </ul>
                             <div class="col-12">
-                                <button class="book"><a href="#book_modal">Book Now</a></button>
+                                <a href="#book_modal" class="book">Book Now</a>
                             </div>
                         </div>
                         <div class="row d-none d-lg-block">
@@ -121,8 +121,8 @@
                                 </div>
                                 <div class="form-row row-eq-spacing">
                                     <div class="col">
-                                        <label for="email" class="required">Email Address</label>
-                                        <input type="email" name="Email" id="email" class="form-control" placeholder="Email" required>
+                                        <label for="email_contact" class="required">Email Address</label>
+                                        <input type="email" name="Email" id="email_contact" class="form-control" placeholder="Email" required>
                                     </div>
                                     <div class="col">
                                         <label for="telephone" class="required">Telephone</label>
