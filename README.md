@@ -52,6 +52,12 @@ The business goals of Bae Abermaw Hotel are:
 
 
 ### Future Features
+Below is a list of features I would like to implement in the future.
+
+- More comprehensive booking options and the ability to book without simply sending a request (Requires backend system integration).
+- More image slidwshows of the hotel and its facilities.
+- A more comprehensive and detailed list of the facilities and services offered.
+- A full list of the rooms available.
 
 ## Technologies Used
 
