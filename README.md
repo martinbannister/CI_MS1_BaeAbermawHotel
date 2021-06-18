@@ -1,15 +1,30 @@
 # Bae Abermaw Hotel
 
-[The Live Website](https://martinbannister.github.io/CI_MS1_BaeAbermawHotel/)
+## [The Live Website](https://martinbannister.github.io/CI_MS1_BaeAbermawHotel/)
 
 ![Mockup](https://github.com/martinbannister/CI_MS1_BaeAbermawHotel/blob/master/docs/mockup/mockup.png)
 
 ## Table of Contents
+1. [Project Goals](#project-goals)
+    1. [Business Goals](#business-goals)
+    2. [User Goals](#user-goals)
+2. [UX](ux)
+    1. [Target Audience](#target-audience)
+    2. [User Stories](#user-stories)
+        1. [First Time Visitors](#first-time-visitors)
+        2. [Regular Visitors](#regular-visitors)
+        3. [Website Owner](#website-owner)
 
 ## Project Goals
-[Back to Index](#table-of-contents)
 ### Business Goals
+The business goals of Bae Abermaw Hotel are:
+- Increase guests by conveying the quality and luxury of the hotel through their website.
+- Convert more site visitors by making it quick and easy to book a room from any page.
+- Showcase the quality of hotel.
+- Showcase the local area and amenities accessible from the hotel.
 ### User Goals
+- 
+[Back to Index](#table-of-contents)
 
 ## UX
 ### Target Audience
