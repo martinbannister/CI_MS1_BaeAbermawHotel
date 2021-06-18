@@ -6,10 +6,12 @@
     /* Custom Site Colours */
     --gold: rgb(152, 147, 57);
     --dark-gold: rgb(142, 132, 61);
+    --darker-gold:rgb(128, 119,56);
+    --lighter-gold:#C8C17E;
     --teal: rgb(36, 79, 129);
 
     /* Customised Halfmoon Framework Colours */
-    --primary-color: var(--dark-gold);
+    --primary-color: var(--darker-gold);
     --secondary-color: var(--teal);
     --gray-color-light: rgba(255, 255, 255, 0.8);
     --lm-input-border-color-hover:var(--teal);
@@ -57,7 +59,7 @@ a:hover {
 }
 
 h1 {
-    color: var(--dark-gold);
+    color: var(--lighter-gold);
 }
 
 .page_heading {
@@ -93,7 +95,7 @@ h1 {
     margin: 0;
     height: 55px;
     color: #fff;
-    background-color: var(--dark-gold);
+    background-color: var(--darker-gold);
     font-size: 1.5rem;
 }
 
@@ -173,7 +175,7 @@ h1 {
 }
 
 .title > h2 {
-    color: var(--gold);
+    color: var(--lighter-gold);
     font-size: 2.25rem;
 }
 
@@ -345,7 +347,7 @@ footer {
         border: 2px solid #fff;
         font-size: 1.75rem;
         color: #fff;
-        background-color: var(--dark-gold);
+        background-color: var(--darker-gold);
     }
 
     .nav_item_lg:first-child {
@@ -392,12 +394,12 @@ footer {
     }
 
     .title>h1 {
-        color: var(--dark-gold);
+        color: var(--lighter-gold);
         font-size: 4.5rem;
     }
 
     .title>h2 {
-        color: var(--gold);
+        color: var(--lighter-gold);
         font-size: 3rem;
     }
 
@@ -464,12 +466,12 @@ footer {
     }
 
     .title>h1 {
-        color: var(--dark-gold);
+        color: var(--lighter-gold);
         font-size: 4.5rem;
     }
 
     .title>h2 {
-        color: var(--gold);
+        color: var(--lighter-gold);
         font-size: 3rem;
     }
 
