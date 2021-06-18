@@ -120,6 +120,7 @@ Below is a list of features I would like to implement in the future.
 - To my testers:
     - Lawry Ward
     - Wendy Scott
+- To the Code Institute and Portfolio Project, the always present navigation of which inspired the navigation for smaller screens on my site.
 - To Millie Kat for keeping me company whilst I was coding.
 - To Mo Shami my mentor for whipping me into shape.
 - To my Code Institute peers, without whom I'd have never have submitted on time or known how.
