@@ -20,24 +20,6 @@
     --lm-button-secondary-border-color-hover:var(--teal);
 }
 
-/* -------------------------- Borders for checking layout -------------------------- */
-
-/* *[class^="col-"] {
-    border: 2px solid red;
-}
-
-div.row {
-    border: 2px solid yellow;
-}
-
-div.col {
-    border: 2px solid green;
-}
-
-div[class^="col-"] {
-    border: 2px solid orange;
-} */
-
 /* -------------------------- General -------------------------- */
 
 /* Rules for sizing Google Material Icons. */
