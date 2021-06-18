@@ -101,10 +101,42 @@ Below is a list of features I would like to implement in the future.
 ## Testing
 
 ### HTML Validation
+I used the [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML of all the pages on the site. Initially the pages showed some errors and these were corrected.
+
+Links to the inial report and the final result with no errors are in the table below.
+
+Initial | Final
+-|-
+[index.html](docs/validation/html/index_html_validation_initial.pdf) | [index.html](docs/validation/html/index_html_validation_final.pdf) 
+[rooms.html](docs/validation/html/rooms_html_validation_initial.pdf) | [rooms.html](docs/validation/html/rooms_html_validation_final.pdf)
+[about.html](docs/validation/html/about_html_validation_initial.pdf) | [about.html](docs/validation/html/about_html_validation_final.pdf) 
+[contact.html](docs/validation/html/contact_html_validation_inital.pdf) | [contact.html](docs/validation/html/contact_html_validation_final.pdf)
+[404.html](docs/validation/html/404_html_validation_initial.pdf) | Passed 1st time
+
 
 ### CSS Validation
+I used the [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) to validate my style.css file of the site.
+
+The CSS passed first time with [zero errors](docs/validation/css/W3C_CSS_Validation.png).
 
 ### Accessibility
+I used the [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/report#/https://martinbannister.github.io/CI_MS1_BaeAbermawHotel/) to check that there we no issues with accessibility standards.  
+
+All pages pass without errors except for about.html.
+
+There is a contrast error on about.html due to the colour of the # of # ( x / y ) text in the corner of the image slideshow.  This is due to the colour of the text matching the background of the page.  However I chose this colour for consistency of design and because it provides the best contrast with the area of the images it overlays.  The contrast error caused by using the same colour as the background is on the basis that the text should still be visible should the image fail to load, however in this case without the loaded image the '#image of #images' is irrelevant anyway. So I decided that this error need not be resolved.
+
+Click on the links to see each report:
+
+[Wave index.html](docs/validation/accessibility/wave_validation_index.png)
+
+[Wave rooms.html](docs/validation/accessibility/wave_validation_index.png)
+
+[Wave about.html](docs/validation/accessibility/wave_validation_about.png)
+
+[Wave contact.html](docs/validation/accessibility/wave_validation_contact.png)
+
+[Wave 404.html](docs/validation/accessibility/wave_validation_404.png)
 
 ### Performance
 
@@ -141,6 +173,8 @@ Below is a list of features I would like to implement in the future.
 
 ### Code
 **W3C Schools** - For [Image Slideshow](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+
+**Stack Overflow** - [default select option as blank - Stack Overflow](https://stackoverflow.com/questions/8605516/default-select-option-as-blank)
 
 ### Media
 
