@@ -5,6 +5,7 @@
 ![Mockup](https://github.com/martinbannister/CI_MS1_BaeAbermawHotel/blob/master/docs/mockup/mockup.png)
 
 ## Table of Contents
+---
 1. [Project Goals](#project-goals)
     1. [Business Goals](#business-goals)
     2. [User Goals](#user-goals)
@@ -16,22 +17,33 @@
         3. [Website Owner](#website-owner)
 
 ## Project Goals
+---
 ### Business Goals
 The business goals of Bae Abermaw Hotel are:
-- Increase guests by conveying the quality and luxury of the hotel through their website.
 - Convert more site visitors by making it quick and easy to book a room from any page.
+- Increase guests by conveying the quality and luxury of the hotel through their website.
 - Showcase the quality of hotel.
 - Showcase the local area and amenities accessible from the hotel.
 ### User Goals
 - Find a high quality hotel that also accepts pets.
-- Be able to book quickly and easily without having to navigate around the site.
+- Be able to book quickly and easily without having to navigate around the site, regardless of the device on which it's used.
 - See the rooms and facilities on offer.
 - See what the local area has to offer when staying.
 
 [Back to Index](#table-of-contents)
 
 ## UX
+---
+I have designed this site with a mobile first approach so the site is clear, easily navigable and the content collapses well and still looks good on smaller screens.
+
+The user experienced is based around the main business goal of converting more website visitors by making it easy to book from any page.  This is why I chose not to hide the navigation in a collapsible menu on smaller devices.  All pages retain the header navigation, albeit styled differently, with the "Book Now" button featuring prominently on all devices.
+
 ### Target Audience
+- Holiday Makers
+- Pet Owners
+- Families
+- Business People
+- Casual Diners
 ### User Stories
 #### First Time Visitors
 #### Regular Visitors
