@@ -1,7 +1,8 @@
 // Slideshow taken from https://www.w3schools.com/howto/howto_js_slideshow.asp
 
-var slideIndex = 1;
-showSlides(slideIndex);
+var slideIndex = 0;
+// showSlides(slideIndex);
+autoSlides();
 
 // Next/previous controls
 function plusSlides(n) {
@@ -13,6 +14,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+// Manual image control
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -27,4 +29,18 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+}
+
+// Automated image cycling
+// Added from W3C schools and renamed to not conflict with existing function name
+function autoSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(autoSlides, 3000); // Change image every 3 seconds
 }
