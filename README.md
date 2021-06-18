@@ -9,7 +9,7 @@
 1. [Project Goals](#project-goals)
     1. [Business Goals](#business-goals)
     2. [User Goals](#user-goals)
-2. [UX](ux)
+2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
     2. [User Stories](#user-stories)
         1. [First Time Visitors](#first-time-visitors)
@@ -32,7 +32,7 @@ The business goals of Bae Abermaw Hotel are:
 
 [Back to Index](#table-of-contents)
 
-## UX
+## User Experience
 ---
 I have designed this site with a mobile first approach so the site is clear, easily navigable and the content collapses well and still looks good on smaller screens.
 
