@@ -140,6 +140,10 @@ Click on the links to see each report:
 
 ### Performance
 
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) produced a rating of 100 on Accessibility, Best Practices and SEO on all pages.  All pages except rooms.html rated between 97 and 99.  
+
+rooms.html only rated 72 due to the size of the images that the page serves, some of which are hidden on initial page load.  The image sizes should be reduced however given the time constraints on this project I have decided to leave this for a future release since the inital user experience isn't significantly reduced.
+
 ### Performance Tests on Various Devices
 
 #### Devices Tested
