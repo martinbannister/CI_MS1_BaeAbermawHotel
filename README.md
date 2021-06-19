@@ -177,6 +177,12 @@ rooms.html only rated 72 due to the size of the images that the page serves, som
 
 #### Tests Performed
 
+1. All links, including page naviagation and modal popup triggers arrive at the correct page and no links are broken.
+2. External links open in a new tab on all devices and do not navigate away from the main site.
+3. Content collapses neatly and continues to look tidy and be clearly visible on all devices.
+4. Modals popup correctly, can be scrolled where necessary and dismissed easily.
+5. The Book Now modal popup displays correctly on all pages, will not submit unless all required fields are completed and warns the user on error.
+
 #### Results
 
 ### Browser Compatibility
