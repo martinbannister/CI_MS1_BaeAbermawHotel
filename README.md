@@ -13,8 +13,8 @@
     1. [Target Audience](#target-audience)
     2. [User Stories](#user-stories)
         1. [First Time Visitors](#first-time-visitors)
-        2. [Regular Visitors](#regular-visitors)
-        3. [Website Owner](#website-owner)
+        2. [Returning Visitors](#returning-visitors)
+        3. [Hotel Owner](#hotel-owner)
 
 ## Project Goals
 ---
@@ -52,14 +52,22 @@ I have chosen to break down my user stories into three separate sections based o
 3. As a first time visitor I want to be able to see the rooms to establish if they're suitable for my needs.
 4. As a first time visitor I want to find the location of the hotel so I can check if it's close to other attractions in the area.
 5. As a first time visitor I want to be able to book a room easily if I like that I see.
+
+[Back to Index](#table-of-contents)
+
 #### Returning Visitors
 6. As a returning visitor I want to book a room quickly and easily.
 7. As a returning visitor I would like to read more information about the area that I might have overlooked on my first visit.
 8. As a returning visitor I want to spend time looking at photo's of the room I've got booked so I can look forward to my holiday.
+
+[Back to Index](#table-of-contents)
+
 #### Hotel Owner
 9. As the hotel owner I want customers to be able to book a room with the minimum amount of friction.
 10. As the hotel owner I want to convey the quality of the hotel and rooms through the website.
 11. As the hotel owner I want the website to reflect the style and brand of the hotel.
+
+[Back to Index](#table-of-contents)
 
 ## Scope
 Based on the goals, business and user requirements for this inital release I have opted for a simple tree structure with only 1 level of depth.  This means no information is hidden or burried, the user can't get lost and there is a strong call to action on every page.<br>
@@ -113,11 +121,14 @@ Initial | Final
 [contact.html](docs/validation/html/contact_html_validation_inital.pdf) | [contact.html](docs/validation/html/contact_html_validation_final.pdf)
 [404.html](docs/validation/html/404_html_validation_initial.pdf) | Passed 1st time
 
+[Back to Index](#table-of-contents)
 
 ### CSS Validation
 I used the [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) to validate my style.css file of the site.
 
 The CSS passed first time with [zero errors](docs/validation/css/W3C_CSS_Validation.png).
+
+[Back to Index](#table-of-contents)
 
 ### Accessibility
 I used the [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/report#/https://martinbannister.github.io/CI_MS1_BaeAbermawHotel/) to check that there we no issues with accessibility standards.  
@@ -138,13 +149,15 @@ Click on the links to see each report:
 
 [Wave 404.html](docs/validation/accessibility/wave_validation_404.png)
 
+[Back to Index](#table-of-contents)
+
 ### Performance
 
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) produced a rating of 100 on Accessibility, Best Practices and SEO on all pages.  All pages except rooms.html rated between 97 and 99.  
 
 rooms.html only rated 72 due to the size of the images that the page serves, some of which are hidden on initial page load.  The image sizes should be reduced however given the time constraints on this project I have decided to leave this for a future release since the inital user experience isn't significantly reduced.
 
-### Performance Tests on Various Devices
+### Tests on Various Devices
 
 #### Devices Tested
 - Honor 10 (Chrome & Firefox)
