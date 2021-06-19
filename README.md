@@ -82,7 +82,38 @@ Based on that I have defined the following features:
 ### Images
 
 ## Wireframes
+### Desktop
+[Index](docs/validation/wireframes/wireframe-desktop-home.png)
 
+[Rooms](docs/validation/wireframes/wireframe-desktop-rooms.png)
+
+[About](docs/validation/wireframes/wireframe-desktop-about.png)
+
+[Contact](docs/validation/wireframes/wireframe-desktop-contact.png)
+
+[Modal Booking Form](docs/validation/wireframes/wireframe-desktop-book-modal.png)
+
+### Tablet
+[Index](docs/validation/wireframes/wireframe-tablet-home.png)
+
+[Rooms](docs/validation/wireframes/wireframe-tablet-rooms.png)
+
+[About](docs/validation/wireframes/wireframe-tablet-about.png)
+
+[Contact](docs/validation/wireframes/wireframe-tablet-contact.png)
+
+[Modal Booking Form](docs/validation/wireframes/wireframe-tablet-book-modal.png)
+
+### Mobile
+[Index](docs/validation/wireframes/wireframe_mobile_home.png)
+
+[Rooms](docs/validation/wireframes/wireframe_mobile_rooms.jpg)
+
+[About](docs/validation/wireframes/wireframe_mobile_about.jpg)
+
+[Contact](docs/validation/wireframes/wireframe_mobile_contact.jpg)
+
+[Modal Booking Form](docs/validation/wireframes/wireframe_mobile_book_modal.jpg)
 
 
 ## Features
