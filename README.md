@@ -146,13 +146,15 @@ I used the [W3C Markup Validation Service](https://validator.w3.org/) to validat
 
 Links to the inial report and the final result with no errors are in the table below.
 
-Initial | Final
--|-
-[index.html](docs/validation/html/index_html_validation_initial.pdf) | [index.html](docs/validation/html/index_html_validation_final.pdf) 
-[rooms.html](docs/validation/html/rooms_html_validation_initial.pdf) | [rooms.html](docs/validation/html/rooms_html_validation_final.pdf)
-[about.html](docs/validation/html/about_html_validation_initial.pdf) | [about.html](docs/validation/html/about_html_validation_final.pdf) 
-[contact.html](docs/validation/html/contact_html_validation_inital.pdf) | [contact.html](docs/validation/html/contact_html_validation_final.pdf)
-[404.html](docs/validation/html/404_html_validation_initial.pdf) | Passed 1st time
+- [index.html](docs/validation/html/index_html_validation_final.pdf) 
+
+- [rooms.html](docs/validation/html/rooms_html_validation_final.pdf)
+
+- [about.html](docs/validation/html/about_html_validation_final.pdf) 
+
+- [contact.html](docs/validation/html/contact_html_validation_final.pdf)
+
+- [404.html](docs/validation/html/404_html_validation_initial.pdf)
 
 [Back to Index](#table-of-contents)
 
@@ -172,15 +174,15 @@ There is a contrast error on about.html due to the colour of the # of # ( x / y 
 
 Click on the links to see each report:
 
-[Wave index.html](docs/validation/accessibility/wave_validation_index.png)
+- [Wave index.html](docs/validation/accessibility/wave_validation_index.png)
 
-[Wave rooms.html](docs/validation/accessibility/wave_validation_index.png)
+- [Wave rooms.html](docs/validation/accessibility/wave_validation_index.png)
 
-[Wave about.html](docs/validation/accessibility/wave_validation_about.png)
+- [Wave about.html](docs/validation/accessibility/wave_validation_about.png)
 
-[Wave contact.html](docs/validation/accessibility/wave_validation_contact.png)
+- [Wave contact.html](docs/validation/accessibility/wave_validation_contact.png)
 
-[Wave 404.html](docs/validation/accessibility/wave_validation_404.png)
+- [Wave 404.html](docs/validation/accessibility/wave_validation_404.png)
 
 [Back to Index](#table-of-contents)
 
@@ -190,15 +192,17 @@ Click on the links to see each report:
 
 rooms.html only rated 72 due to the size of the images that the page serves, some of which are hidden on initial page load.  The image sizes should be reduced however given the time constraints on this project I have decided to leave this for a future release since the inital user experience isn't significantly reduced.
 
-[Lighthouse index.html](docs/validation/performance/lighthouse_index.png)
+- [Lighthouse index.html](docs/validation/performance/lighthouse_index.png)
 
-[Lighthouse rooms.html](docs/validation/performance/lighthouse_rooms.png)
+- [Lighthouse rooms.html](docs/validation/performance/lighthouse_rooms.png)
 
-[Lighthouse about.html](docs/validation/performance/lighthouse_about.png)
+- [Lighthouse about.html](docs/validation/performance/lighthouse_about.png)
 
-[Lighthouse contact.html](docs/validation/performance/lighthouse_contact.png)
+- [Lighthouse contact.html](docs/validation/performance/lighthouse_contact.png)
 
-[Lighthouse 404.html](docs/validation/performance/lighthouse_404.png)
+- [Lighthouse 404.html](docs/validation/performance/lighthouse_404.png)
+
+[Back to Index](#table-of-contents)
 
 ### Tests on Various Devices
 
