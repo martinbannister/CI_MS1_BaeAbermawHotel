@@ -75,7 +75,8 @@
                 <nav id="main_nav" class="row">
                     <a href="index.html" class="col-4 col-md-2"><img src="assets/images/logo.png" alt="Bea Abermaw Hotel" class="logo"></a>
                     <div class="col-8 col-md-10">
-                        <div class="row d-lg-none justify-content-center justify-content-md-end">
+                        <!-- navigation for small screens -->
+                        <div class="row d-lg-none">
                             <ul class="col-12 navigation">
                                 <li class="nav_item col-6 col-sm-3 col-lg-2"><a href="index.html"><span class="material-icons md-18 d-sm-none d-lg-inline">house</span> Home</a>
                                 </li>
@@ -86,21 +87,15 @@
                                 <li class="nav_item col-6 col-sm-3 col-lg-2"><a href="contact.html"><span class="material-icons md-18 d-sm-none d-lg-inline">forum</span> Contact</a>
                                 </li>
                             </ul>
-                            <div class="col-12">
-                                <a href="#book_modal" class="book">Book Now</a>
-                            </div>
                         </div>
-                        <div class="row d-none d-lg-block">
-                            <div class="">
+                        <!-- navigation for larger screens -->
+                        <div class="row d-none d-lg-block justify-content-end">
                                 <ul class="navigation_lg col">
                                     <li class="nav_item_lg col-2"><a href="index.html"><span class="material-icons md-18 d-sm-none d-lg-inline">house</span> Home</a></li>
                                     <li class="nav_item_lg col-2"><a href="rooms.html"><span class="material-icons md-18 d-sm-none d-lg-inline">hotel</span> Rooms</a></li>
                                     <li class="nav_item_lg col-2"><a href="about.html"><span class="material-icons md-18 d-sm-none d-lg-inline">groups</span> About</a></li>
                                     <li class="nav_item_lg col-2"><a href="contact.html"><span class="material-icons md-18 d-sm-none d-lg-inline">forum</span> Contact</a></li>
-                                    <li class="book_lg col-2"><a href="#book_modal">Book Now</a></li>
                                 </ul>
-
-                            </div>
                         </div>
                     </div>
 
@@ -166,9 +161,9 @@
                     <div class="col">
                         <ul class="footer_nav">
                             <li class="book"><a href="#book_modal" class="">Book Now</a></li>
-                            <li class="footer_nav_item"><a href="rooms.html">Rooms</a></li>
-                            <li class="footer_nav_item"><a href="about.html">About</a></li>
-                            <li class="footer_nav_item"><a href="contact.html">Contact</a></li>
+                            <li class="footer_nav_item d-none d-md-inline-block"><a href="rooms.html">Rooms</a></li>
+                            <li class="footer_nav_item d-none d-md-inline-block"><a href="about.html">About</a></li>
+                            <li class="footer_nav_item d-none d-md-inline-block"><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-auto footer_social">
