@@ -182,14 +182,22 @@ rooms.html only rated 72 due to the size of the images that the page serves, som
 3. Content collapses neatly and continues to look tidy and be clearly visible on all devices.
 4. Modals popup correctly, can be scrolled where necessary and dismissed easily.
 5. The Book Now modal popup displays correctly on all pages, will not submit unless all required fields are completed and warns the user on error.
+6. The contact us form displays correctly on all devices and will not submit unless all required fields are complete.
+7. The map on the contact us page still functions at all screen sizes and correctly shows the location of the hotel.
 
 #### Results
 
 3. After removing the button around the *a* tag for the Book Now link following HTML validation the Book Now link spans the width of it's containing column at certain breakpoints, which on the **Kindle Fire HDX Lunix** (as identified in Firefox's inspector tool) specifically, does not look good.
+
 ---
+
 5. The Book Now modal on Firefox for Android does not provide any validation warning when pressing the Book button and required fields have not been completed.  This is regardless of the field type left incomplete.  
 
 Although an old thread the comment by user Simone on [Stack Overflow](https://stackoverflow.com/questions/43868163/required-attribute-does-not-work-on-firefox) suggests this could be because something is overridden by a stylesheet.  This will require further investigation.
+
+---
+
+6. The contact form suffers from the same problem on Firefox for Android as the Book Now modal.
 
 ### Browser Compatibility
 - Google Chrome
