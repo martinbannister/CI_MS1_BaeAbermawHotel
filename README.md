@@ -185,6 +185,12 @@ rooms.html only rated 72 due to the size of the images that the page serves, som
 
 #### Results
 
+3. After removing the button around the *a* tag for the Book Now link following HTML validation the Book Now link spans the width of it's containing column at certain breakpoints, which on the **Kindle Fire HDX Lunix** (as identified in Firefox's inspector tool) specifically, does not look good.
+---
+5. The Book Now modal on Firefox for Android does not provide any validation warning when pressing the Book button and required fields have not been completed.  This is regardless of the field type left incomplete.  
+
+Although an old thread the comment by user Simone on [Stack Overflow](https://stackoverflow.com/questions/43868163/required-attribute-does-not-work-on-firefox) suggests this could be because something is overridden by a stylesheet.  This will require further investigation.
+
 ### Browser Compatibility
 - Google Chrome
 - Mozilla Firefox
