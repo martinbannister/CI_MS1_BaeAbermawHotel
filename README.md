@@ -157,6 +157,16 @@ Click on the links to see each report:
 
 rooms.html only rated 72 due to the size of the images that the page serves, some of which are hidden on initial page load.  The image sizes should be reduced however given the time constraints on this project I have decided to leave this for a future release since the inital user experience isn't significantly reduced.
 
+[Lighthouse index.html](docs/validation/performance/lighthouse_index.png)
+
+[Lighthouse rooms.html](docs/validation/performance/lighthouse_rooms.png)
+
+[Lighthouse about.html](docs/validation/performance/lighthouse_about.png)
+
+[Lighthouse contact.html](docs/validation/performance/lighthouse_contact.png)
+
+[Lighthouse 404.html](docs/validation/performance/lighthouse_404.png)
+
 ### Tests on Various Devices
 
 #### Devices Tested
