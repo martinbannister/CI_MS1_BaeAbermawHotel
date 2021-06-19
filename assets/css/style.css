@@ -106,28 +106,6 @@ h1 {
     height: 50px;
 }
 
-.book {
-    background-color: #fff;
-    color: var(--gold);
-    border: var(--dark-gold) solid 3px;
-    border-radius: 2rem;
-    padding: 1rem 2rem;
-    margin: 0 auto;
-    font-size: 2rem;
-    font-weight: 700;
-    display: block;
-}
-
-.book>a {
-    text-decoration: none;
-    color: var(--gold);
-}
-
-.book>a:hover {
-    text-decoration: none;
-    color: var(--gold);
-}
-
 .cover {
     background-image: url(../images/a_view_to_luxury.png);
     background-position: center;
@@ -296,6 +274,29 @@ footer {
 
 .footer_nav_item a:hover {
     color: var(--teal);
+}
+
+.book {
+    background-color: #fff;
+    color: var(--darker-gold);
+    border: var(--darker-gold) solid 3px;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 1vh 1vw;
+    font-size: 1.75rem;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+}
+
+.book>a {
+    text-decoration: none;
+    color: var(--darker-gold);
+}
+
+.book>a:hover {
+    text-decoration: none;
+    color: var(--darker-gold);
 }
 
 .footer_social {
