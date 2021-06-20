@@ -87,6 +87,12 @@ The design of the site was inspired by a visit to the hotel. The colour scheme u
 The colour scheme was inspired by the hotel itself, the teal colour used on their walls was derived from a [photo I took](docs/images/dining_01_small.png) of the dining room, and the gold colour from their [logo](assets/images/logo.png).
 
 ### Typography
+I selected the Parisienne font for the home screen circle heading because I wanted something that was legible but also conveyed a sense of style and class.  
+
+I used the Raleway font because I wanted a sans-serif font that was also easy to read but again was somewhat classy and not pedestrian.
+
+Both fonts are served from [Google Fonts](https://fonts.google.com/)
+
 ### Images
 
 ## Wireframes
