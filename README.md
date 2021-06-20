@@ -337,16 +337,41 @@ Although an old thread the comment by user Simone on [Stack Overflow](https://st
 - Mozilla Firefox
 
 ### Testing User Stories
+Due to time contstraints I have not been able to document specific user testing scenarios.  However the images documented in [Features](#features) show a number of different scenarios related to each user story on different screen sizes and pages.
 
 ## Bugs found and resolved during development
 
 ## Deployment
 
 ### GitHub Pages
+I have used GitHub pages to deploy this page.  If you would like to do the same you can follow these steps:
+
+1. Log into your GitHub account and find the [repository](https://github.com/martinbannister/CI_MS1_BaeAbermawHotel). 
+2. Click on 'Settings' in the repository. 
+3. Click 'Pages' in the left-hand menu once you're in Settings. 
+4. Click 'Source'.
+5. Click the dropdown menu which says 'None', then select 'Master Branch'.
+6. Wait for page to refresh automatically. 
+7. Under GitHub pages you can now find a link to the published live website. 
 
 ### Forking the GitHub Repository
+If you would like to fork this respository so you can make changes without affecting the original please follow these steps:
+
+1. Log into your GitHub account and find the [repository](https://github.com/martinbannister/CI_MS1_BaeAbermawHotel).
+2. Click 'Fork' (last button on the top right of the repository page).
+3. You will then have a copy of the repository in your own GitHub account. 
 
 ### Making a Local Clone
+In order to make a clone of this repository to work on locally, follow these steps:
+
+1. Log into your GitHub account and find the [repository](https://github.com/martinbannister/CI_MS1_BaeAbermawHotel).
+2. Click on the 'Code' button (next to 'Add file'). 
+3. To clone the repository using HTTPS, under clone with HTTPS, copy the link.
+4. Then open Git Bash.
+5. Change the current working directory to where you want the cloned directory to be made.
+6. In your IDE's terminal type 'git clone' followed by the URL you copied.
+7. Press Enter. 
+8. Your local clone will now be made.
 
 ## Credits
 *All credits included in code where applicable*
