@@ -165,21 +165,25 @@ All other images were obatained from the [hotels current website](https://www.ba
 
 **User stories covered by this feature**
 2 to 5
+[Navigation on all sizes](docs/user_story_images/nav_on_all_sizes.png)
 
 2. A fixed footer at the bottom of every page offers navigation when the header navigation is out of view and provides social media links.
 
 **User stories covered by this feature**
 2 and 3
+[Footer on all pages](docs/user_story_images/footer_with_book_all_pages.png)
 
 3. A *book now* button always present in the footer provides a modal form to book a room from whichever page the visitor is on.
 
 **User stories covered by this feature**
 5, 7 and 10
+[Footer on all pages](docs/user_story_images/footer_with_book_all_pages.png)
 
 4. The home page includes key information about the facilities available.
 
 **User stories covered by this feature**
 1
+[Hope Page Features](docs/user_story_images/home_page_features.png)
 
 5. The rooms page allows visitors to see what's available before booking.
 
@@ -195,6 +199,7 @@ All other images were obatained from the [hotels current website](https://www.ba
 
 **User stories covered by this feature**
 4 and 6
+[Contact page](docs/user_story_images/contact_page.png)
 
 
 ### Future Features
