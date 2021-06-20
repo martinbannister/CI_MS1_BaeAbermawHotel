@@ -270,6 +270,8 @@ input[type="date"] {
 
 /* -------------------------- Footer -------------------------- */
 
+/* styles the footer element to create a bar that is
+    always fixed to the bottom of the page */
 footer {
     position: fixed;
     bottom: 0;
@@ -279,6 +281,7 @@ footer {
     border-top: 1px solid #fff;
 }
 
+/* styles the ul used for footer navigation */
 .footer_nav {
     display: block;
     list-style: none;
@@ -286,6 +289,7 @@ footer {
     margin: 1vh 0;
 }
 
+/* styles the list items used in footer navigation */
 .footer_nav_item {
     display: inline-block;
     text-align: center;
@@ -296,11 +300,14 @@ footer {
     color: #fff;
 }
 
+/* provides a hover effect for footer naigation items */
 .footer_nav_item:hover {
     border: 3px solid #fff;
     background-color: var(--gold);
 }
 
+/* the next two classes style links for footer navigation items
+    to override halfmoon link styles */
 .footer_nav_item>a {
     color: #fff;
     text-decoration: none;
@@ -312,6 +319,8 @@ footer {
     color: var(--teal);
 }
 
+/* .book classes style the book now button so it appears unique
+    to other buttons in the navigation */
 .book {
     background-color: #fff;
     color: var(--darker-gold);
@@ -335,10 +344,13 @@ footer {
     color: var(--darker-gold);
 }
 
+/* styles the footer navigation ul used
+    specifically for social medial links */
 .footer_social {
     margin: 1vh 0;
 }
 
+/* the next two classes style the social media links icons */
 .social_link {
     color: #fff;
     font-size: 3rem;
@@ -354,12 +366,16 @@ footer {
 
 
 /* -------------------------- Media Queries -------------------------- */
+/* two media queries have been used to style specific elements on
+    screen sizes from 576px to 768px and 769px and above*/
 
 /* MEDIUM UP */
 @media screen and (min-width:769px) {
 
     /* -------------------------- Header -------------------------- */
 
+    /* ensure the hotel logo is sized and positioned
+         correctly on larger screens */
     .logo {
         float: left;
         margin: 2rem 2rem 1rem 2rem;
@@ -368,6 +384,10 @@ footer {
     }
 
     /* new navigation */
+    /* created to provide button navigation on larger screens
+        as trying to style the smaller navigation to change
+        so significantly and remain positioned correctly
+        at larger points proved too complicated */
     .navigation_lg {
         margin: 2rem 0 0;
         display: inline-block;
@@ -387,6 +407,10 @@ footer {
         background-color: var(--darker-gold);
     }
 
+    /* first child class is used here to
+        ensure navigation is pushed to the right
+        view width units are used to ensure navigation
+        position remains responsive */
     .nav_item_lg:first-child {
         margin: 0 0 0 24vw;
     }
