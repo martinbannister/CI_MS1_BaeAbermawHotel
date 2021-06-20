@@ -493,26 +493,11 @@ footer {
         height: 50px;
     }
 
-    .book {
-        margin-top: 2rem;
-        margin-right: 2rem;
-    }
-
-    .book>a {
-        text-decoration: none;
-        color: var(--gold);
-    }
-
-    .book a:hover {
-        text-decoration: none;
-        color: var(--gold);
-    }
-
     .circle {
         background-color: rgba(36, 79, 129, 0.8);
         border-radius: 50%;
-        width: 35rem;
-        height: 35rem;
+        width: 40rem;
+        height: 40rem;
         margin: 0 auto;
         padding: 1.5rem 3rem;
         display: flex;
@@ -522,12 +507,12 @@ footer {
 
     .title>h1 {
         color: var(--lighter-gold);
-        font-size: 4.5rem;
+        font-size: 5rem;
     }
 
     .title>h2 {
         color: var(--lighter-gold);
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     /* -------------------------- / Header -------------------------- */
