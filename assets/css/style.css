@@ -204,21 +204,30 @@ section {
     color: var(--gold);
 }
 
+/* styles all label text to match colour scheme */
 label {
     color: var(--teal);
     font-weight: 500;
 }
 
+/* styles input boxes that are dates more consistently with
+    with other input styles from the framework */
 input[type="date"] {
     display: block;
     border: 1px solid var(--dark-gold);
     margin-bottom: 10px;
 }
 
+/* customises the halfmoon class to give inputs a thematic border */
 .form-control {
     border: 1px solid var(--dark-gold);
 }
 
+/* the .thumbnail classes are used to create a hover overlay
+    for images in rooms.html so visitors know to click for
+    more images
+    https://www.w3schools.com/howto/howto_css_image_overlay.asp was
+    used and customised to achieve this */
 .thumbnail_container {
     position: relative;
 }
@@ -244,11 +253,15 @@ input[type="date"] {
     font-weight: 700;
 }
 
+/* this class styles images on the rooms.html modal pop ups
+    to give them a photograph like appearance */
 .img_full {
     background-color: #fff;
     padding: 10px;
 }
 
+/* used to ensure the text containers on about.html
+    are centred */
 .about_container {
     margin: 0 auto;
 }
