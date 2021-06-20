@@ -81,7 +81,11 @@ Based on that I have defined the following features:
 7. The contact page provides a means of getting in touch before booking and allows visitors to find the hotel.
 
 ## Design
+The design of the site was inspired by a visit to the hotel. The colour scheme used in the public areas and rooms was very modern, appealing and gave a feeling of luxury.  I was inspired to create a site that reflected that same design asthetic and colour scheme and conveyed a sense of luxury. The view from our room was spectacular and given the hotels tag line, "A View To Luxury", I felt this was the perfect image to greet people with.
+
 ### Colour Scheme
+The colour scheme was inspired by the hotel itself, the teal colour used on their walls was derived from a [photo I took]() of the dining room, and the gold colour from their [logo](assets/images/logo.png).
+
 ### Typography
 ### Images
 
