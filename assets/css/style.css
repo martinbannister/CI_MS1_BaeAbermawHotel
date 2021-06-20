@@ -6,9 +6,10 @@
     /* Custom Site Colours */
     --gold: rgb(152, 147, 57);
     --dark-gold: rgb(142, 132, 61);
+    --teal: rgb(36, 79, 129);
+    /* colours added based on Wave report to provided higher contrast */
     --darker-gold:rgb(128, 119,56);
     --lighter-gold:#C8C17E;
-    --teal: rgb(36, 79, 129);
 
     /* Customised Halfmoon Framework Colours */
     --primary-color: var(--darker-gold);
@@ -42,33 +43,43 @@
 }
 
 
+/* All default styles applied are targeted towards mobile devices */
+/* media queries are used to vary styles for larger screen devices */
+/* where necessary. */
+
 /* -------------------------- general Selectors -------------------------- */
 
 body {
+    /* sets default font family and background colour */
     font-family: 'Raleway', sans-serif;
     background-color: var(--teal);
 }
 
 a:hover {
+    /* disables halfmoon framework default hover style for links */
     text-decoration: none;
     color: #fff;
 }
 
 .btn.btn-primary:hover {
+    /* overwrites framework hover class to provide a button hover border */
     border: 1px solid var(--dark-gold);
 }
 
 h1 {
+    /* sets the standard heading colour */
     color: var(--lighter-gold);
 }
 
 .page_heading {
+    /* sets default margins for page headings */
     margin-top: 3vh;
     margin-left: 7vw;
 }
 
 /* -------------------------- Header -------------------------- */
 
+/* logo class for logo on all pages */
 .logo {
     float: left;
     margin: 0.5rem 0.5rem 0rem 0.25rem;
@@ -77,10 +88,12 @@ h1 {
     width: 95%;
 }
 
+/* main navigation ID selector used on all pages */
 #main_nav {
     margin: 0;
 }
 
+/* class used on the navigation ul element */
 .navigation {
     list-style: none;
     float: right;
@@ -88,6 +101,7 @@ h1 {
     margin-top: 0.5rem;
 }
 
+/* class used on navigation li elements */
 .nav_item {
     float: left;
     text-align: center;
@@ -99,6 +113,7 @@ h1 {
     font-size: 1.5rem;
 }
 
+/* child selector for links withing navigation list items */
 .nav_item>a {
     color: #fff;
     text-decoration: none;
@@ -106,6 +121,7 @@ h1 {
     height: 50px;
 }
 
+/* class for the homepage cover image */
 .cover {
     background-image: url(../images/a_view_to_luxury.png);
     background-position: center;
@@ -122,6 +138,8 @@ h1 {
     animation: fade_in 2s forwards;
 }
 
+/* keyframe to fade the cover image in */
+/* code adapted from https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp */
 @keyframes fade_in {
     from {
         opacity: 0.1;
@@ -132,6 +150,7 @@ h1 {
     }
 }
 
+/* class for the main heading greeting circle on the home page */
 .circle {
     background-color: rgba(36, 79, 129, 0.8);
     border-radius: 50%;
@@ -144,6 +163,7 @@ h1 {
     text-align: center;
 }
 
+/* the following 3 classes are applied to the heading text within the circle */
 .title {
     font-family: 'Parisienne', cursive;
 }
