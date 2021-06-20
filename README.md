@@ -95,6 +95,22 @@ Both fonts are served from [Google Fonts](https://fonts.google.com/)
 
 ### Images
 
+All images were either taken by myself or taken from the hotel's existing website.
+
+#### My Images
+
+[A view to luxury](assets/images/a_view_to_luxury.png)
+
+Bay images [1](assets/images/bay_img_1.jpg) [2](assets/images/bay_img_2.jpg) [3](assets/images/bay_img_3.jpg) [4](assets/images/bay_img_4.jpg) [5](assets/images/bay_img_5.jpg)
+
+[Double Sea view room](assets/images/double_sea_view_small.png)
+
+[Double Sea view room ensuite](assets/images/ensuite_small.png)
+
+[The bay](assets/images/the_bay.jpg)
+
+All other images were obatained from the [hotels current website](https://www.baeabermawhotel.co.uk/en-GB/homepage)
+
 ## Wireframes
 ### Desktop
 [Index](docs/validation/wireframes/wireframe-desktop-home.png)
@@ -132,7 +148,32 @@ Both fonts are served from [Google Fonts](https://fonts.google.com/)
 
 ## Features
 ### Current Features
-#### Feature 1
+1. A Navigation header is present on all pages and does not collapse completely on mobile failitating rapid navigation.
+
+**User stories covered by this feature**
+
+2. A fixed footer at the bottom of every page offers navigation when the header navigation is out of view and provides social media links.
+
+**User stories covered by this feature**
+
+3. A *book now* button always present in the footer provides a modal form to book a room from whichever page the visitor is on.
+
+**User stories covered by this feature**
+
+4. The home page includes key information about the facilities available.
+
+**User stories covered by this feature**
+
+5. The rooms page allows visitors to see what's available before booking.
+
+**User stories covered by this feature**
+
+6. The about page tells potential customers about the hotel and the currounding area and facilities.
+
+**User stories covered by this feature**
+
+7. The contact page provides a means of getting in touch before booking and allows visitors to find the hotel.
+
 **User stories covered by this feature**
 
 
