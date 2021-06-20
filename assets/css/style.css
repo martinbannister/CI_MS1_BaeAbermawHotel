@@ -455,7 +455,6 @@ footer {
     /* increases the font size of
     navigation on larger screens */
     footer {
-        min-height: 8vh;
         font-size: 1.5rem;
     }
 
@@ -529,7 +528,6 @@ footer {
     of footer children on small
     to medium sreens */
     footer {
-        min-height: 8vh;
         font-size: 2rem;
     }
 
