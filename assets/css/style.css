@@ -424,6 +424,8 @@ footer {
 
     /* / new navigation */
 
+    /* the following classes style the .circle class and
+    heading text to be larger on larger screens */
     .circle {
         background-color: rgba(36, 79, 129, 0.8);
         border-radius: 50%;
@@ -450,6 +452,8 @@ footer {
 
     /* -------------------------- Footer -------------------------- */
 
+    /* increases the font size of
+    navigation on larger screens */
     footer {
         min-height: 8vh;
         font-size: 1.5rem;
@@ -521,6 +525,9 @@ footer {
 
     /* -------------------------- Footer -------------------------- */
 
+    /* increases the font size
+    of footer children on small
+    to medium sreens */
     footer {
         min-height: 8vh;
         font-size: 2rem;
