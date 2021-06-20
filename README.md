@@ -255,12 +255,12 @@ Although an old thread the comment by user Simone on [Stack Overflow](https://st
 ## Credits
 *All credits included in code where applicable*
 
-### Code
-**W3C Schools** - For [Image Slideshow](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+### Code references
+#### 1. **W3C Schools** - For [Image Slideshow](https://www.w3schools.com/howto/howto_js_slideshow.asp)
 
-**Stack Overflow** - [default select option as blank - Stack Overflow](https://stackoverflow.com/questions/8605516/default-select-option-as-blank)
+#### 2. **Stack Overflow** - [default select option as blank - Stack Overflow](https://stackoverflow.com/questions/8605516/default-select-option-as-blank)
 
-**Ryan Sechrest** - [Change your list bullet to a custom character in CSS](https://ryansechrest.com/2012/11/change-your-list-bullet-to-a-custom-character-in-css/)
+#### 3. **Ryan Sechrest** - [Change your list bullet to a custom character in CSS](https://ryansechrest.com/2012/11/change-your-list-bullet-to-a-custom-character-in-css/)
 
 ### Media
 
