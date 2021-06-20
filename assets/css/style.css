@@ -153,6 +153,7 @@ h1 {
 /* class for the main heading greeting circle on the home page */
 .circle {
     background-color: rgba(36, 79, 129, 0.8);
+    border: 3px solid var(--darker-gold);
     border-radius: 50%;
     width: 25rem;
     height: 25rem;
