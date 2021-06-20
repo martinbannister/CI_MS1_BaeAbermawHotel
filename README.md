@@ -52,20 +52,21 @@ I have chosen to break down my user stories into three separate sections based o
 3. As a first time visitor I want to be able to see the rooms to establish if they're suitable for my needs.
 4. As a first time visitor I want to find the location of the hotel so I can check if it's close to other attractions in the area.
 5. As a first time visitor I want to be able to book a room easily if I like that I see.
+6. As a first time visitor I want to be able to contact the hotel to check if they meet any requirements I have not apparent on the site.
 
 [Back to Index](#table-of-contents)
 
 #### Returning Visitors
-6. As a returning visitor I want to book a room quickly and easily.
-7. As a returning visitor I would like to read more information about the area that I might have overlooked on my first visit.
-8. As a returning visitor I want to spend time looking at photo's of the room I've got booked so I can look forward to my holiday.
+7. As a returning visitor I want to book a room quickly and easily.
+8. As a returning visitor I would like to read more information about the area that I might have overlooked on my first visit.
+9. As a returning visitor I want to spend time looking at photo's of the room I've got booked so I can look forward to my holiday.
 
 [Back to Index](#table-of-contents)
 
 #### Hotel Owner
-9. As the hotel owner I want customers to be able to book a room with the minimum amount of friction.
-10. As the hotel owner I want to convey the quality of the hotel and rooms through the website.
-11. As the hotel owner I want the website to reflect the style and brand of the hotel.
+10. As the hotel owner I want customers to be able to book a room with the minimum amount of friction.
+11. As the hotel owner I want to convey the quality of the hotel and rooms through the website.
+12. As the hotel owner I want the website to reflect the style and brand of the hotel.
 
 [Back to Index](#table-of-contents)
 
@@ -163,30 +164,37 @@ All other images were obatained from the [hotels current website](https://www.ba
 1. A Navigation header is present on all pages and does not collapse completely on mobile failitating rapid navigation.
 
 **User stories covered by this feature**
+2 to 5
 
 2. A fixed footer at the bottom of every page offers navigation when the header navigation is out of view and provides social media links.
 
 **User stories covered by this feature**
+2 and 3
 
 3. A *book now* button always present in the footer provides a modal form to book a room from whichever page the visitor is on.
 
 **User stories covered by this feature**
+5, 7 and 10
 
 4. The home page includes key information about the facilities available.
 
 **User stories covered by this feature**
+1
 
 5. The rooms page allows visitors to see what's available before booking.
 
 **User stories covered by this feature**
+3, 5 and 9
 
-6. The about page tells potential customers about the hotel and the currounding area and facilities.
+6. The about page tells potential customers about the hotel and the surrounding area and facilities.
 
 **User stories covered by this feature**
+4 and 8
 
 7. The contact page provides a means of getting in touch before booking and allows visitors to find the hotel.
 
 **User stories covered by this feature**
+4 and 6
 
 
 ### Future Features
