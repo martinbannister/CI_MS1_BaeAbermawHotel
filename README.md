@@ -15,6 +15,19 @@
         1. [First Time Visitors](#first-time-visitors)
         2. [Returning Visitors](#returning-visitors)
         3. [Hotel Owner](#hotel-owner)
+3. [Scope](#scope)
+    1. [Design](#design)
+    2. [Colour Scheme](colour-scheme)
+    3. [Typography](#typeography)
+    4. [Images](#images)
+4. [Wireframes](#wireframes)
+5. [Features](#features)
+6. [Technologies Used](#technologies-used)
+7. [Testing](#testing)
+    - [Bugs During Development](#Bugs-found-and-resolved-during-development)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 ---
@@ -341,6 +354,30 @@ Due to time contstraints I have not been able to document specific user testing 
 
 ## Bugs found and resolved during development
 
+- Couldn't makse single set of navigation itmes responsive in the way I wanted to.
+    - Fix: added a second set of nav items that are hidden on smaller screen sizes whilst hiding the original nav items on larger sceens
+
+- Custom hover CSS being ignored.
+    - Fix: applied specific calsses to elements in question and this seemed to apply custom hover styles correctly.
+
+- No social media icons in Google's Material Icons library.
+    - Fix: resorted to Font Awesome's social icons.
+
+- Vertical align footer nav elements.
+    - Fix: referred to article on dev.to **(code reference 5)** on various ways of centreing elements.  Settled on using margins and chose to use view hight over pixles for more responsive margins.
+
+- Looked up unicode checkmark character from unicode-table.com.
+    - Used Ryan Sechrest **(code reference 3)** to find out how to insert a symbol as a custom bullet point.
+
+- Found error on Honor Play when opening the link from WhatApp the booking form Date and Select elements did respond when tapped.
+    - When using Chrome browser on the same device the input boxes worked as expected.  No spcific fix for the WhatApp error was identified.
+
+- When viewing images on rooms.html in the modal popup on mobile the modal and subsequently images appeared small.
+    - Fix: Changed the width utility class to display modal as full screen on smaller devices.
+
+- Dots not scylcing with image after adding autocycling code from W3C.
+    - Fix: Copied the dot cylcing code from the base function into the autoSlides() function.
+
 ## Deployment
 
 ### GitHub Pages
@@ -382,6 +419,10 @@ In order to make a clone of this repository to work on locally, follow these ste
 #### 2. **Stack Overflow** - [default select option as blank - Stack Overflow](https://stackoverflow.com/questions/8605516/default-select-option-as-blank)
 
 #### 3. **Ryan Sechrest** - [Change your list bullet to a custom character in CSS](https://ryansechrest.com/2012/11/change-your-list-bullet-to-a-custom-character-in-css/)
+
+#### 4. **W3c Schools** - For [hover overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+
+#### 5. **dev.to** - For [CSS Centreing methods](https://dev.to/elijahtrillionz/how-to-center-align-items-in-css-with-4-solid-methods-31c3)
 
 ### Media
 
