@@ -72,10 +72,14 @@ I have chosen to break down my user stories into three separate sections based o
 ## Scope
 Based on the goals, business and user requirements for this inital release I have opted for a simple tree structure with only 1 level of depth.  This means no information is hidden or burried, the user can't get lost and there is a strong call to action on every page.<br>
 Based on that I have defined the following features:
-- A Navigation header is present on all pages and does not collapse completely on mobile failitating rapid navigation.
-- A fixed footer at the bottom of every page offers navigation when the header navigation is out of view and provides social media links.
-- A *book now* button provides a modal form to book a room from whichever page.
-- The home page includes key information about the facilities available.
+1. A Navigation header is present on all pages and does not collapse completely on mobile failitating rapid navigation.
+2. A fixed footer at the bottom of every page offers navigation when the header navigation is out of view and provides social media links.
+3. A *book now* button always present in the footer provides a modal form to book a room from whichever page the visitor is on.
+4. The home page includes key information about the facilities available.
+5. The rooms page allows visitors to see what's available before booking.
+6. The about page tells potential customers about the hotel and the currounding area and facilities.
+7. The contact page provides a means of getting in touch before booking and allows visitors to find the hotel.
+
 ## Design
 ### Colour Scheme
 ### Typography
