@@ -422,24 +422,6 @@ footer {
         height: 50px;
     }
 
-    .book_lg {
-        margin: 0 0 0 1vw;
-        display: inline-block;
-        background-color: #fff;
-        color: var(--gold);
-        border: var(--dark-gold) solid 3px;
-        border-radius: 2rem;
-        padding: 1rem 2rem;
-        text-align: center;
-        font-size: 1.75vw;
-        font-weight: 700;
-    }
-
-    .book_lg>a {
-        text-decoration: none;
-        color: var(--gold);
-    }
-
     /* / new navigation */
 
     .circle {
