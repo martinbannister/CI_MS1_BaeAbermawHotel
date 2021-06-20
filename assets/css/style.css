@@ -179,10 +179,12 @@ h1 {
 
 /* -------------------------- Body -------------------------- */
 
+/* margin allied to all sections to prevent footer overlap */
 section {
     margin-bottom: 10vh;
 }
 
+/* feature cards appear on the home page an list the main selling points of the hotel */
 .feature {
     border-radius: 1rem;
     border: 3px solid var(--dark-gold);
@@ -195,6 +197,7 @@ section {
     margin: 0 auto;
 }
 
+/* This code was derived from https://ryansechrest.com/2012/11/change-your-list-bullet-to-a-custom-character-in-css/ */
 .feature li::before {
     content: "\2713";
     padding-right: 8px;
