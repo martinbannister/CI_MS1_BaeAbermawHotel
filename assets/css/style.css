@@ -465,6 +465,13 @@ footer {
 @media screen and (min-width:576px) and (max-width:768px) {
 
     /* -------------------------- Header -------------------------- */
+
+    /* used to ensure consistency of logo
+    styling between screen sizes
+    although this styling is the same
+    as the previous media query if it
+    was not used here it would be skipped over
+    from smallest screen styling to large screen styling */
     .logo {
         float: left;
         margin: 2rem 2rem 1rem 2rem;
@@ -472,6 +479,9 @@ footer {
         width: 80%;
     }
 
+    /* ensures navigation remains consistently collapsed
+        into a single row of square blocks on screens
+        between 576 and 768 pixels */
     .navigation {
         margin-top: 2rem;
     }
