@@ -109,7 +109,19 @@ Bay images [1](assets/images/bay_img_1.jpg) [2](assets/images/bay_img_2.jpg) [3]
 
 [The bay](assets/images/the_bay.jpg)
 
+#### Hotel's own images
+
 All other images were obatained from the [hotels current website](https://www.baeabermawhotel.co.uk/en-GB/homepage)
+
+[Double Standard Room](assets/images/double_standard_room_small.png)
+
+[Double Standard Ensuite](assets/images/double_standard_ensuite_small.png)
+
+[Family Room Sea View](assets/images/family_room_sea_view_small.png)
+
+[Family Room Sea View Ensuite](assets/images/family_room_sea_view_ensuite_small.png)
+
+[Logo](assets/images/logo.png)
 
 ## Wireframes
 ### Desktop
