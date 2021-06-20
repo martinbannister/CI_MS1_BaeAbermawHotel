@@ -218,6 +218,22 @@ Below is a list of features I would like to implement in the future.
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript) (From W3C How To)
 
 ### Frameworks, libraries and other tools
+[Halfmooon Framework](https://www.gethalfmoon.com/docs/modal/)
+
+[Google Fonts](https://fonts.google.com/) Site fonts
+
+[Font Awesome](https://fontawesome.com/) Used for social media icons
+
+[Am I responsive](http://ami.responsivedesign.is/)
+
+[Pic Resize](https://picresize.com/)
+
+[Unicode Table](https://unicode-table.com/en/sets/)
+
+[Gitpod](https://www.gitpod.io/)
+
+[Google Maps](https://maps.google.com)
+
 
 ## Testing
 
@@ -343,6 +359,10 @@ Although an old thread the comment by user Simone on [Stack Overflow](https://st
 #### 3. **Ryan Sechrest** - [Change your list bullet to a custom character in CSS](https://ryansechrest.com/2012/11/change-your-list-bullet-to-a-custom-character-in-css/)
 
 ### Media
+
+All images used were taken by myself or from the existing hotel website.
+
+Please see [Design - Images](#images) for further details.
 
 ### Acknowledgements
 
